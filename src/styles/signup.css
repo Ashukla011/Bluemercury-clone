@@ -1,0 +1,131 @@
+/* Main Container */
+#container{
+    width:500px;
+    margin:auto;
+    text-align:center;
+}
+
+#heading{
+    margin-bottom:24px;
+}
+
+#create_account{
+    color:#12284c; 
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size : 34px;
+   line-height: 29px;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 30px;
+}
+
+#complete_form{  
+    letter-spacing: .2px;
+    color:#12284c; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+/* used same class for every input */
+.input{
+    width:98%;
+    /* margin:auto; */
+    line-height: 41px;
+    text-indent: 12px;
+    margin-bottom:18px;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 300;
+    font-size: 15px; 
+}
+
+#input_required{
+    text-align:right;
+    font-size:11px;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 300;
+    color:#12284c;
+}
+
+#birthday{
+    margin-bottom: 0px;
+}
+
+#checkbox_join_container{
+    background-color: #d1e8ee;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#blue_join_rewards{
+    display: flex;
+}
+
+#checkbox{
+  padding:0px;
+}
+
+#blue_join_rewards_div2{
+    text-align:center;
+}
+
+#join{
+    font-family: Quickbrush;
+    color: #3e536f;
+    font-size: 23px;
+    font-style: italic;
+}
+
+#blue{
+    font-family: 'Montserrat', sans-serif;
+    color: #5e769b;
+    font-size:16px;
+}
+
+#rewards{
+    color:#12284c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#blue_join_row2{
+    color:#12284c; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#privacy_policy{
+    color:#12284c; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height:14px;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+#create_account_btn{
+    width:244px;
+    height:40px;
+    background-color: #12284c;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height:14px;
+}
+
+#already_account{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:44px;
+    color:#12284c;
+}
+
+#sign_in{
+    font-weight: 400;
+}

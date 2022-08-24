@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account-bluemercury</title> <!-- title of page  -->
+    <link rel="stylesheet" href="./Signup.css">
+    <!--Link of css styles -->
+    <!--Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon"
+        href="//cdn.shopify.com/s/files/1/0283/0185/2747/files/favicon_48x48.png?v=1591627636 type= 'image/icon'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style/header-footer.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/c347e400e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+    <div>
+        <div id="container">
+            <div id="create_container">
+                <header id="heading">
+                    <h1 id="create_account">CREATE ACCOUNT</h1>
+                    <p id="complete_form">Complete the form below to create a bluemercury.com account.</p>
+                </header>
+
+                <form id="form" onsubmit="checkSignup(event)">
+                    <input type="email" id="email" class="input" placeholder="Email*" required>
+                    <input type="text" id="first_name" class="input" placeholder="First Name*" required>
+                    <input type="text" id="last_name" class="input" placeholder="Last Name*" required>
+                    <input type="password" id="password" class="input" placeholder="Password*" required>
+                    <p id="input_required">*Indicates Required Field</p>
+
+                    <div id="checkbox_join_container">
+                        <div id="blue_join_rewards">
+                            <div id="blue_join_rewards_div1">
+                                <input type="checkbox" id="checkbox">
+                            </div>
+                            <div id="blue_join_rewards_div2">
+                                <!-- <span id="blue_join_row1">                             -->
+                                <span id="join">join</span>
+                                <span id="blue">BLUE<span id="rewards">REWARDS</span></span>
+                                <!-- </span>                         -->
+                            </div>
+                            <div>
+                                <span id="blue_join_row2">
+                                    Earn $10 for every $250 you spend, plus FREE birthday gifts & treatments!
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p id="privacy_policy">To learn more about how we use your information and your rights, see <a
+                                href="Signup.html">Privacy Note</a></p>
+                    </div>
+                    <button type="submit" id="create_account_btn">CREATE ACCOUNT</button>
+                </form>
+                <div>
+                    <span id="already_account">
+                        Already have a bluemercury.com account?
+                        <a id="sign_in" href="Login.html">Sign In</a>
+                    </span>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="../scripts/signup.js"></script>
+<script src="../scripts/header-footer.js"></script>

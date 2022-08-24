@@ -1,0 +1,27 @@
+#product_main{
+    border: 1px solid;
+    display: flex;
+}
+#sidebar{
+    border: 1px solid;
+    width: 20%;
+}
+#right_main{
+    border: 1px solid;
+    width: 80%;
+}
+#right_main_top{
+    border: 1px solid;
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+}
+#right_main_sort{
+    border: 1px solid black;
+    display: flex;
+}
+ul li{
+list-style-type: square;;
+}
+
+

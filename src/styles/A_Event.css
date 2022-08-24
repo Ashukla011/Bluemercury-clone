@@ -1,0 +1,109 @@
+body{
+   background-color:  #fff;
+   font-family: Montserrat Light, sans-serif;
+   margin:0px;
+   font-style: normal;
+   font-weight: 400px;
+   line-height: 1.65;
+   overflow-x: hidden;
+}
+#Aslider{
+    background-color: #d7ebf2;
+     width: 100%;
+     height: 40px;
+ 
+     
+}
+#Aslider p{
+    margin-top:100px;
+    color:#12284C;
+    font-size: 12px;
+    margin-top:50px;
+  text-align:  center;
+  transition: delay
+
+}
+#Ablock-1{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    /* border: 1px solid indigo;/ */
+   
+    
+}
+  span{
+    color:#12284C;
+    font-size:42px;
+    font-family: "playfair Display",sans-serif;
+
+    position: relative;
+    bottom: -120px;
+}
+#Astep-header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+   /* border: 1px solid  indigo; */
+
+}
+ .step_title{
+    color:#12284C;
+    font-size:34px;
+    font-family: "playfair Display Regular", serif;
+    padding: 0px 0px 15px;
+    position: relative;
+    bottom: -30px;
+}
+#Ablock-2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* border: 1px solid indigo; */
+    padding: 32px 0px;
+
+}
+#Ablock-2 div{
+    border:10xp solid red
+}
+
+ #Atimeline-image img{
+     /* width: 80%; */
+    
+    margin-left: 40px; 
+} 
+#Atimeline-inner{
+    display: block;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    bottom: -150px;
+    left: 50px;
+    padding: 0px 0px 6px;
+   
+    /* border: 1px solid red; */
+}
+#Atimeline-inner h2{
+    color:#12284C;
+    font-size: 28px;
+    font-family: "playfair Desplay Regular", serif;
+}
+ p{
+    color:#12284c;
+    font-size: 16px;
+    font-family: Montserrat Light,sans-serif;
+}
+#Atimeline-inner a{
+    color:#12284C;
+    font-size: 16px;
+    font-family: "Montserrat Semin Bold",sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid #12284c;
+}
+#masterclass{
+    border-bottom: none;
+}
+#Ah3{
+    color:#12284C;
+    font-size: 28px;
+    font-family: "playfair Desplay Regular", serif;
+}

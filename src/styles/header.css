@@ -1,198 +1,278 @@
 body {
-       font-family: "Montserrat Light", sans-serif;
-   }
-   #heading1 {
-       display: flex;
-       width: 95%;
-       margin: auto;
-   }
-   .heading_one {
-       display: flex;
-   }
-   .heading_one>div:nth-child(2) {
-       margin-left: 10px;
-       margin-right: 30px;
-       margin-top: 10px;
-       font-size: 10px;
-       color : #12284c;
-       font-weight: 400;
-   }
-   #heading1 img {
-       width: 25px;
-   }
-   #heading1>div:nth-child(1) {
-       flex-grow: 1;
-   }
-   .heading2{
-       text-align: center;
-   }
-   .heading2 img{
-       height: 50px;
-   }
-   #heading2{
-       display: flex;
-       margin-top: 20px;
-   }
-   #heading2 > div{
-       flex-basis: 120px;
-   }
-   #heading2 > div:nth-child(1),#heading2 > div:nth-child(8){
-       flex-grow: 1;
-   }
-   #foot {
-       display: grid;
-       grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
-       width: 98%;
-       margin: 25px auto;
-       grid-gap: 30px;
-       color: #7d7d7d;
-       font-family: Montserrat Light,sans-serif;
-   }
-   #foot-first div img{
-    width: 12%;
-    margin: 12px;
-    cursor: pointer;
-    
-   }
-   
-   #foot div button {
-       border: none;
-       background: transparent;
-   }
-   
-   #foot div input {
-       background: transparent;
-       border: none;
-   }
-   
-   #foot div:nth-child(n+1) p:nth-child(1) {
-       font-size: 14px;
-   }
-   
-   #foot div:nth-child(n+1) p:nth-child(1)~p {
-       font-size: 12px;
-       line-height: 20px;
-       letter-spacing: 0.8px;
-       margin: 10px;
-   }
-   
-   #foot-first {
-       font-size: 14px;
-       width: 200%;
-      
-   }
-   #foot2{
-    width: 200%;
-    margin-left: 130px;
-   }
-   #foot3{
-    width: 200%;
-    margin-left: 130px;
-   }
-   #foot4{
-    width: 200%;
-    margin-left: 130px;
-   }
-   #foot5{
-    width: 200%;
-    margin-left: 130px;
-   }
-   
-   #foot-first p:nth-child(1) {
-       font-size: 14px;
-       color: #12284c;
-   }
-   
-   #foot-first div:nth-child(4) {
-       font-size: 14px;
-       margin: 10px 0px;
-       width: 100%;
-       gap: 20px;
-   }
-   
-   .copyright {
-       font-size: 10px;
-   }
-   *{
-       margin: 0px;
-       padding: 0px;
-       box-sizing: border-box;
-       font-family: din-2014, sans-serif;
-   }
-   body{
-       background-color: rgb(244,244,244);
-   }
-   #bottomNav>ul{
-       display: inline-flex;
-       justify-content: space-evenly;
-       align-items: center;
-       list-style: none;
-       /* border: 1px solid teal; */
-       width: 100%;
-       float: left;
-       margin: auto;
-       margin-top: 20px;
-   }
-   ul li{
-       float: left;
-       list-style: none;
-       position: relative;
-       font-weight: 500;
-   }
-  ul li a{
-    font-family:14px'Montserrat Medium',sans-serif;
+    font-family: "Montserrat Light", sans-serif;
+}
+#heading1 {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.heading_one {
+    display: flex;
+}
+.heading_one>div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 10px;
+    color : #12284c;
+    font-weight: 400;
+}
+#heading1 img {
+    width: 25px;
+}
+#heading1>div:nth-child(1) {
+    flex-grow: 1;
+}
+.heading2{
+    text-align: center;
+}
+.heading2 img{
+    height: 50px;
+}
+#heading2{
+    display: flex;
+    margin-top: 20px;
+}
+#heading2 > div{
+    flex-basis: 120px;
+}
+#heading2 > div:nth-child(1),#heading2 > div:nth-child(8){
+    flex-grow: 1;
+}
+#foot {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    width: 98%;
+    margin: 25px auto;
+    grid-gap: 30px;
+    color: #7d7d7d;
+    font-family: Montserrat Light,sans-serif;
+}
+#foot-first div img{
+ width: 12%;
+ margin: 12px;
+ cursor: pointer;
+ 
+}
 
-       display: inline-block;
-       text-decoration: none;
-       color: #12284c;
-       font-size: 14px;
-       padding: 5px 5px;
-   }
-   .drop ul{
-       width: fit-content;
-       display: flex;
-       flex-direction: column;
-   }
- ul li a:hover{
-       border-bottom: 2px solid white;
-   }
-   ul li:hover .drop {
-       display: flex;
-   }
-   .drop{
-       display: flex;
-       position: absolute;
-       left: -150%;
-       width: unset;
-       width: 91vw;
-       margin: auto;
-       display: none;
-       background-color: white;
-       padding: 10px;
-       gap: 80px;
-   }
-      .drop1 ul{
-       width: fit-content;
-       display: flex;
-       flex-direction: column;
-   }
-   .drop1{
-       display: flex;
-       position: absolute;
-       left: -265%;
-       width: unset;
-       width: 91vw;
-       margin: auto;
-       display: none;
-       background-color: white;
-       padding: 10px;
-       gap: 80px;
-   }
-   ul li:hover .drop1 {
-       display: flex;
-   }
-   #search1{
-    width: 90%;
-    margin-left: 80px;
-   }
+#foot div button {
+    border: none;
+    background: transparent;
+}
+
+#foot div input {
+    background: transparent;
+    border: none;
+}
+
+#foot div:nth-child(n+1) p:nth-child(1) {
+    font-size: 14px;
+}
+
+#foot div:nth-child(n+1) p:nth-child(1)~p {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    margin: 10px;
+}
+
+#foot-first {
+    font-size: 14px;
+    width: 200%;
    
+}
+#foot2{
+ width: 200%;
+ margin-left: 130px;
+}
+#foot3{
+ width: 200%;
+ margin-left: 130px;
+}
+#foot4{
+ width: 200%;
+ margin-left: 130px;
+}
+#foot5{
+ width: 200%;
+ margin-left: 130px;
+}
+
+#foot-first p:nth-child(1) {
+    font-size: 14px;
+    color: #12284c;
+}
+
+#foot-first div:nth-child(4) {
+    font-size: 14px;
+    margin: 10px 0px;
+    width: 100%;
+    gap: 20px;
+}
+
+.copyright {
+    font-size: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: din-2014, sans-serif;
+}
+body{
+    background-color: rgb(244,244,244);
+}
+#bottomNav>ul{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid teal; */
+    width: 100%;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+}
+ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    font-weight: 500;
+}
+ul li a{
+ font-family:14px'Montserrat Medium',sans-serif;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #12284c;
+    font-size: 14px;
+    padding: 5px 5px;
+}
+.drop ul{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+ul li a:hover{
+    border-bottom: 2px solid white;
+}
+ul li:hover .drop {
+    display: flex;
+}
+.drop{
+    display: flex;
+    position: absolute;
+    left: -150%;
+    width: unset;
+    width: 91vw;
+    margin: auto;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    gap: 80px;
+}
+   .drop1 ul{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.drop1{
+    display: flex;
+    position: absolute;
+    left: -265%;
+    width: unset;
+    width: 91vw;
+    margin: auto;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    gap: 80px;
+}
+ul li:hover .drop1 {
+    display: flex;
+}
+#search1{
+ width: 90%;
+ margin-left: 80px;
+}
+/* .offcanves{
+ position: fixed;
+ width: 30vw;
+ height: 100vh;
+ top: 0;
+ right: 0;
+ display: flex;
+ align-items: center;
+}
+.offcaves ul{
+ width: 100%;
+}
+.offcanves ul li{
+ list-style: none;
+}
+.offcanves ul li a{
+font-size: 30px;
+font-family: 'Open Sans',sans-serif;
+font-weight: 400;
+line-height: 2;
+display: block;
+text-decoration: none;
+padding: 15px 0px;
+}
+.close{
+ position: absolute;
+} */
+.main-menu .open-btn {
+ font-size: 10px;
+ color: #12284c;
+ margin-right: 50px;
+}
+
+.offcanvas-menu {
+ position: fixed;
+ top: 0;
+ right: 0;
+ background: white;
+ width: 30vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ transform: translateX(100%);
+ transition: all .4s ease;
+}
+
+.offcanvas-menu.active {
+ transform: translateX(0);
+}
+
+.close-btn {
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ font-size: 30px;
+ color:black;
+}
+
+.offcanvas-menu ul {
+ width: 100%;
+}
+
+.offcanvas-menu ul li {
+ list-style: none;
+}
+
+.offcanvas-menu ul li a {
+ font-size: 30px;
+ font-family: 'Open Sans', sans-serif;
+ color: black;
+ font-weight: 400;
+ line-height: 1.5;
+ display: block;
+ text-decoration: none;
+ padding: 15px 0 15px 7vw;
+ transition: all .4s ease;
+}
+
+.offcanvas-menu ul li a:hover {
+ background: white;
+}

@@ -1,0 +1,27 @@
+#displayProduct_bottom{
+    width: 65%;
+    margin: auto;
+}
+#displayProduct_bottom h2,#displayProduct_bottom p,#displayProduct_bottom h4{
+    color: grey;
+}
+
+#more1{
+    display: flex;
+    justify-content: space-between;
+}
+#viewed_image{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.rev_btn{
+    width: 400px;
+    height: 40px;
+    background-color: #5e769b;
+    color: white;
+}
+#srt_flt{
+    width: 199px;
+    height: 50px;
+}

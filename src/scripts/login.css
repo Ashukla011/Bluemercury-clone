@@ -1,0 +1,67 @@
+#login_container{
+    width:50%;
+    margin:auto;
+    text-align: center;
+}
+
+#login_heading{
+   color:#12284c; 
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size : 34px;
+   line-height: 29px;
+   letter-spacing: .1px;
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 30px;
+}
+
+#please_enter{
+    letter-spacing: .2px;
+    color:#12284c; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.email{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 300;
+    font-size: 14px; 
+    width:70%;
+    text-indent: 12px;
+    margin-bottom:20px;
+    line-height:40px;       
+}
+
+#password {
+    text-indent: 8px;
+}
+
+#login_button{
+    width:71%;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 600;
+    font-size: 14px;
+    background-color:#12284c;
+    color: #fff;
+    line-height:38px;
+}
+
+#no_account{
+    font-size:13px;
+    color:#12284c;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 300;
+}
+
+#create_one{
+    font-size:13px;
+    color:#12284c;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:500;
+    text-decoration: underline;
+    line-height:45px;
+}

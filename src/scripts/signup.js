@@ -1,41 +1,20 @@
-// Posting the user data in database
-async function checkSignup(e) {
-    e.preventDefault();
+
   
-    let email = document.getElementById("email").value;
-    let first_name = document.getElementById("first_name").value;
-    let last_name = document.getElementById("last_name").value;
-    let password = document.getElementById("password").value;
+
+var form = document.querySelector('form');
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  var data = {
   
-    const data = {
-      email: email,
-      first_name: first_name,
-      last_name: last_name,
-      password: password,
-    };
-  
-    let userData = await fetch("http://localhost:3001/users/signup", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (response.status === 403) {
-          alert("User already exists, please login");
-          window.location.href = "login.html";
-        } else {
-          return response.json();
-        }
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  
-    if (userData !== undefined) {
-      window.alert("Sign up successful, please login");
-      window.location.href = "login.html";
-    }
+   
+    email:form.email.value,
+    first_name:form.first_name.value,
+    last_name:form.last_name.value,
+    password:form.password.value,
+
   }
-  
+  console.log(data)
+  localStorage.setItem("userdata", JSON.stringify(data))
+  window.location.href = "./login.html"
+})

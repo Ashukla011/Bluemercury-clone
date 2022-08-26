@@ -1,0 +1,241 @@
+body{
+    font-family: Montserrat Light,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #12284c;
+    background: #fff;
+    line-height: 1.65;
+    overflow-x: hidden;
+}
+.Afirst-bimg{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color:#12284c;
+    /* border: 1px solid indigo; */
+     /* background-color: ; */
+}
+.Afirst-bimg img{
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid indigo; */
+    margin: 0PX 0PX 14PX;
+}
+.Afirst-bimg button{
+  color: #eee;
+  background-color: #12284c;
+  padding: 15px;
+  font-size: 14px;
+  font-family: "Montsserat Semi Bold",sans-serif;
+  margin-top: 20px;
+}
+.Afirst-bimg p{
+    margin-top: 40px;
+    color: #12284c;
+    font-size: 14px;
+    font-family: "Montsserat Ligh",sans-serif;
+    margin: 0px 0px 7px;
+    padding: 14px 14px 0px;
+}
+.Afirst-bimg p a{
+   
+    color: #5D679B;
+    font-size: 16px;
+    font-family: "Montsserat Ligh",sans-serif;
+    text-decoration: none;
+    /* border-bottom: 2px solid #12284c; */
+}
+.Atable-con{
+    display: flex;
+    width: 100%;
+    height: 850px;
+    /* border: 1px soid indigo; */
+}
+.Abox-1{
+    /* border:1px solid indigo; */
+    width: 40%;
+    height: 850px;
+    text-align: center;
+    padding: 14px 0px;
+   
+}
+.Abox-1 h3{
+    font: 42px;
+    color: #12284c;
+    font-family: Quickbrush, cursive;
+    padding: 0px 0px 14px;
+    position: relative;
+    bottom: -40%;
+}
+.Abox-1 p{
+    font: 16px;
+    color: #12284c;
+    font-family: "Montsserat Regular",sans-serif;
+    margin:0px 0px 7px;
+    padding: 0px 14px;
+    position: relative;
+    bottom: -40%;
+}
+.Abox-1 button{
+    color:#ffffff;
+    background-color: #12284c;
+    padding:15px;
+    position: relative;
+    bottom: -40%;
+}
+.Abox-2{
+    /* border:1px solid indigo; */
+    width: 100%;
+    height: 850px;
+
+}
+td{
+    color:#12284c;
+    background-color: #91CEDF33;
+    padding:14px;
+    width: 100%;
+    /* border: 1px solid indigo; */
+    height: fit-content;
+
+}
+td ,p{
+    color: #12284c;
+    font-size: 14px;
+    font-family: Motsserat Regular,sans-serif;
+}
+span{
+    background-color: #5D679B;
+   margin:0px 73.3281px ,0px,73.3125px;
+   border-radius: 500%;
+}  
+hr{
+    color: #5D679B;
+}
+.A-editors-1{
+    height: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+   /* border:1px solid indianred; */
+}
+ .A-editors-1 h3{
+    color: #5D679B;
+    font-size: 42px;
+    font-family: Quickbrush,cursive;
+ 
+}
+.A-editors-1 p{
+    color: #5D679B;
+    font-size: 16px;
+    font-family: "Montsserat Regular", sans-serif;
+ 
+}
+
+
+.A-editors-2{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    /* border:1px solid indigo; */
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+.A-editors-2 div{
+    /* border:1px solid indigo; */
+    padding:14px 0px;
+    color: #12284c;
+    text-align: center;
+   
+}
+.A-editors-2 div p{
+    font-size: 16px;
+    margin: 0px 0px 7px ;
+    padding:0px 14px 14px ;
+    color: #12284c;
+    font-family: "Montsserat Regular", sans-serif
+}
+img{
+    width: 50%;
+    height: 70px;
+}
+
+.read{
+    color: #12284c;
+    background-color: #ffffff;
+    padding: 7.7px 14px ;
+    font-size: 14px;
+    font-family: "Montsserat Medium",sans-serif;
+    margin-top: 20px;
+}
+
+.A-singupNow{
+    text-align: center;
+    background-color: #F5F5F5;
+    color: #12284c;
+    height: 250px;
+}
+.A-singupNow h3{
+    color: #5D679B;
+    font-size: 42px;
+    font-family: Quickbrush,cursive;
+}
+
+
+.A-singupNow p{
+  
+    color: #12284c;
+    font-size: 16px;
+    font-family: "Montsserat Ligh",sans-serif;
+    margin: 0px 0px 7px;
+    padding: 14px 14px 0px;
+}
+.A-singupNow p a{
+   
+    color: #5D679B;
+    font-size: 16px;
+    font-family: "Montsserat Ligh",sans-serif;
+    text-decoration: none;
+    /* border-bottom: 2px solid #12284c; */
+}
+.A-singupNow button{
+    color: #eee;
+    background-color: #12284c;
+    padding: 15px;
+    font-size: 14px;
+    font-family: "Montsserat Semi Bold",sans-serif;
+   
+  }
+
+  .A-faq{
+    text-align: center;
+    background-color: #ffffff;
+    height: 100px;
+}
+.A-faq a{
+    font-size: 16px;
+    color: #12284c
+}
+li{
+  
+    color: #12284c;
+  
+}
+
+#Aslider{
+    background-color: #d7ebf2;
+     width: 100%;
+     height: 40px;
+ 
+     
+}
+#Aslider p{
+    margin-top:100px;
+    color:#12284C;
+    font-size: 12px;
+    margin-top:50px;
+  text-align:  center;
+  transition: delay
+
+}

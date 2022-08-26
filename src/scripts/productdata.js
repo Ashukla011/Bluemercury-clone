@@ -29,10 +29,16 @@ let  append= (x) =>{
         let tt = document.createElement("p");
         tt.innerText =el.price_sign+" "+ el.price
 
-        let div = document.createElement("div");  
+        let div = document.createElement("div"); 
+        div.onclick =() =>{
+            saveData()
+        }
         div.setAttribute("class","list")  
         div.append(img,descri,ti,tt)
         right_main_bottom.append(div )
 
     })
+}
+let saveData = () => {
+    console.log("working")
 }

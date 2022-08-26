@@ -4,7 +4,7 @@ window.addEventListener("load",()=>{
   let getData = async()=>{
     let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=80`);
     let x = await res.json();
-    console.log(x)
+    // console.log(x)
   
     append(x)
   }
@@ -28,13 +28,18 @@ let  append= (x) =>{
         ti.innerText = el.name;
         let tt = document.createElement("p");
         tt.innerText =el.price_sign+" "+ el.price
+        
 
         let div = document.createElement("div"); 
         div.onclick =() =>{
             saveData()
         }
-        div.setAttribute("class","list")  
+        div.setAttribute("class","list1")  
         div.append(img,descri,ti,tt)
+        div.addEventListener("click",function(){
+            localStorage.setItem("news",JSON.stringify(el))
+            window.location.href="./displayProductPage.html"
+        })
         right_main_bottom.append(div )
 
     })
@@ -42,3 +47,6 @@ let  append= (x) =>{
 let saveData = () => {
     console.log("working")
 }
+// let cSearch = () => {
+//     console.log("working ")
+//    }

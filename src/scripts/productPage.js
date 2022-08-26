@@ -26,3 +26,13 @@ var flag = true;
       return (flag1 = true);
     }
   });
+
+  let csearch = () =>{
+      // var p=document.querySelector("#a").checked
+      // var l=document.querySelector("#a").value
+
+        console.log("yes")
+      }
+      function yes(){
+        console.log("sorting function")
+      }

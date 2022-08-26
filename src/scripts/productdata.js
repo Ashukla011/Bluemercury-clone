@@ -2,7 +2,7 @@ window.addEventListener("load",()=>{
     getData()
   })
   let getData = async()=>{
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=50`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=80`);
     let x = await res.json();
     console.log(x)
   

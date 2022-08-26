@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="./css raghavendra/payment.css">
+</head>
+
+<body>
+
+  <div id="Main"
+    style="width: 90%; margin: 100px auto 0; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;">
+    <div>
+      <!-- left side Form -->
+    <div id="main-div">
+
+      <div class="heading">
+        <img width="40%" src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/blm-checkout-logo.png?65041" />
+        <div style="font-size: 12px; color: rgba(18, 40, 76, 0.7); margin-top: 15px; margin-bottom: 25px;">
+          Cart > Customer information > Shipping method > Payment method
+        </div>
+      </div>
+      <div id="express">Express Checkout</div>
+      <div id="paypal-1">
+       <button ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVjU8IwGHm0L8t2_wp_fH-Fj-t9OGmo0VrDEsi-Kk_isNyChYZAkH6xxknWdTAqkpnw&usqp=CAU" alt=""></button>
+      </div>
+      <div id="or">_____________________________OR____________________________</div>
+
+
+      <form class="PaymenForm" onsubmit="nextPage(event)">
+
+        <h2 style="margin-left: 10px;">Contact information</h2>
+        <div class="Form_Box" id="remove-btm">
+          <input id="Email" type="email" style="width: 400px; margin: 7px;" class="Form_Ip" name="user_email"
+            placeholder="Email">
+          <label class="Form_Invisible" for="user_email">Email</label>
+        </div>
+        <div style="display:flex; margin-top: none; margin-left: 10px;">
+          <input class="news-checkbox" type="checkbox" checked="checked">
+          <label type="checkbox__label" for="checkout_buyer_accepts_marketing" style="font-size: 12px;">
+            Keep me up to date on news and offers
+          </label>
+        </div>
+
+        <div>
+          <h2 style="margin-left: 10px;">
+            Shipping address
+          </h2>
+
+          <div style="display: flex;">
+            <div>
+              <input id="Payment_username" class="Form_Ip_Name" type="text" name="first_name" placeholder="First name">
+            </div>
+            <div>
+              <input id="Payment_lastname" class="Form_Ip_Name" type="text" name="last_name" placeholder="Last name">
+              <!-- <label class="Form_Invisible" for="last_name">Last name</label> -->
+            </div>
+          </div>
+
+          <div>
+            <input id="Payment_address" class="Payment_Form_Ip" type="text" name="Address_line1" placeholder="Address">
+            <label class="Form_Invisible" for="Address_line1">Address_line1</label>
+          </div>
+          <div>
+            <input id="Payment_address1" class="Payment_Form_Ip" type="text" name="Address_line2"
+              placeholder="Apartment, suite, etc. (optional)">
+            <label class="Form_Invisible" for="Address_line2">Address_line2</label>
+          </div>
+          
+          <div style="display: flex;">
+            <div>
+              <input id="cont" class="location_list" placeholder="City">
+            </div>
+            <div>
+              <select id="stt" class="location_list" name="State">
+                <option value="alaska">Alaska</option>
+                <option value="california">California</option>
+                <option value="delaware">Delaware</option>
+                <option value="florida">Florida</option>
+                <option value="georgia">Georgia</option>
+                <option value="hawaii">Hawaii</option>
+                <option value="indiana">Indiana</option>
+                <option value="newjersey">New Jersey</option>
+
+              </select>
+            </div>
+
+            <div>
+              <input id="Payment_pin" class="pin" type="tel" name="PIN" placeholder="PIN CODE">
+            </div>
+          </div>
+          <div>
+            <div>
+              <input type="checkbox" value="1" name="remember_me" id="remember_me " style="margin-left: 10px;">
+              <label class="checkbox_label" for="remember_me" style="font-size: 14px; color: rgba(18, 40, 76, 0.8);">
+                Save this information for next time
+              </label>
+            </div>
+            <p style="color:  rgba(18, 40, 76, 0.6); font-size: 15px; text-align: left; margin-left: 8px;">By continuing, you agree to Bluemercury's <a href="" style="color: grey;">Privacy Note</a>
+            </p>
+          </div>
+          <div>
+            <a href="" style="color: #12284c; font-size: 12px;">
+              < RETURN TO CART</a>
+                <button class="End_btn" style="width: 300px; margin-left: 150px; font-weight: 600;" onclick="window.location.href = 'payment2'" >CONTINUE TO SHIPPING METHOD</button>
+          </div>
+        </div>
+
+
+
+
+        <hr />
+        <p style="font-size: 12px;margin-right: 400px; ">All rights reserved bluemercury</p>
+      </div>
+
+      </form>
+    </div>
+
+    <!--  -->
+    <div id="p-right-section" style="padding-top: 10px; padding-bottom: 10px;">
+      
+    </div>
+  </div>
+</body>
+
+
+</html>
+<script></script>

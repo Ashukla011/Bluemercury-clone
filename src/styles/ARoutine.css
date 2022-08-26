@@ -1,0 +1,140 @@
+.A-con{
+    width: 100%;
+    height: 1300px;
+    background-color: #faf6f1;
+    /* border: 1px solid indigo; */
+}
+.A-rot1{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+  
+    /* border: 1px solid red; */
+}
+.A-rot1 img{
+    margin-top: 50px;
+}
+.A-rot2{
+    width: 40%;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+ 
+    /* border: 1px solid red; */
+    padding: 0px 0px 15px;
+    font-size: 16px ;
+    font-family: "Montsserat Light",sans-serif;
+    color:#12284c
+}
+.A-rot3{
+    text-align: center;
+
+}
+.A-rot3 h2{
+    font-size: 42px;
+    color: #12284c;
+    font-family: "Montsserat Regular",sans-serif;
+
+}
+.-rot3 h3{
+    font-size: 34px;
+    color: #12284c;
+    font-family: "Montsserat Light",sans-serif;
+
+}
+.A-rot4{
+    width: 100%;
+    height: 450px;
+   
+}
+.A-rot5{
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Montsserat Light",sans-serif;
+    padding:0px 0px 15px;
+    color: #12284c;
+    width: 40%;
+    height: 200px;
+}
+a{
+    position: relative;
+    bottom: -30px;
+    text-decoration: none;
+    border-bottom: 2px solid #12284c;
+    color: #12284c;
+}
+.A-flex-img{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-between;
+    /* border: 1px solid indigo; */
+    gap: 10px;
+    /* background-color: #faf6f1; */
+    margin-top: 30px;
+
+}
+.A-flex-img div{
+    /* border: 1px solid indianred; */
+    background-color: #e7dccb;
+    text-align: center;
+}
+.A-flex-img1 img{
+    
+    text-align: center;
+    padding: 0px 0px 6px;
+    margin-left: 50px;
+    height: 400px;
+}
+.A-flex-img2 img{
+    /* width: 100%; */
+    margin-right: 50px;
+    
+    text-align: center;
+   
+    padding: 0px 0px 6px;
+    height: 400px;
+} 
+.A-flex-img1 p{
+   text-align: center;
+   font-size: 16px;
+   color: #12284c;
+
+}
+.A-flex-img2 p{
+    text-align: center;
+    font-size: 16px;
+    color: #12284c;
+ 
+ }
+ .A-last{
+    width: 100%;
+    height: 800px;
+    border:1px solid indigo;
+    background-color: #faf6f1;
+    margin-top:10px
+}
+ .A-last img{
+    width: 100%;
+    height: 400px;
+ }
+
+ 
+#Aslider{
+    background-color: #d7ebf2;
+     width: 100%;
+     height: 40px;
+ 
+     
+}
+#Aslider p{
+    margin-top:100px;
+    color:#12284C;
+    font-size: 12px;
+    margin-top:50px;
+  text-align:  center;
+  transition: delay
+
+}

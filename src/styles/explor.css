@@ -1,0 +1,610 @@
+/* * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+/* top slider */
+#Aslider{
+  background-color: #d7ebf2;
+   width: 100%;
+   height: 40px;
+
+   
+}
+#Aslider p{
+  margin-top:100px;
+  color:#12284C;
+  font-size: 12px;
+  margin-top:50px;
+text-align:  center;
+transition: delay
+
+}
+.A-ul-1{
+display: flex;
+justify-self: space-between;
+  gap:30px;
+  height: 100px;
+  border: 1px solid  #12284c;
+  width: 80%;
+
+  margin: auto;
+ 
+}
+.A-ul-1 a{
+  color: #14264A;
+  font-size: 16px;
+  font-family: "Montserrat Medium" sans-serif;
+   margin-top: 30px;
+
+}
+.A-ul-1 h2{
+  border-left: 1px solid #12284c;
+  height: 50px;
+}
+.A{
+  width: 100px;
+  height: 40px;
+   margin: auto;
+  color:#12284c;
+  width: 100px;
+  height: 40px;
+  /* font-size: 16px; */
+ 
+  padding:0px 16px ;
+  border: none;
+  cursor: pointer;;
+}
+.A a{
+  color: #12284c;
+  text-decoration: none;
+  border-bottom: 2px solid #12284c;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides-1 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container-1 {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev-1, .next-1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-1:hover, .next-1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text-11 {
+  color:#000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50px;
+  left: 16px;
+ 
+
+  /* text-align: center; */
+}
+.text-11 img{
+  width: 100%;
+  height: 30px;
+}
+.text-12 {
+  color:#000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+.text-12 h4{
+  color: #12284c;
+  font-size: 32.5px;
+  font-family: "Montserrat Light",sans-serif;
+}
+.text-12 a{
+  color: #12284c;
+  text-decoration: none;
+  border-bottom: 2px solid #12284c;
+}
+.text-21{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-21 img{
+  width: 100%;
+  height: 150px;
+ opacity: #eee;
+}
+.text-22{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-22 button{
+  background-color: #FFFFFF;
+  color:#12284c;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  margin:12px 0px 0px;
+  padding:0px 16px ;
+  border: none;
+  cursor: pointer;;
+}
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+.dot-1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot-1:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade-1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+/* ///////////////////////////////////////// */
+body{
+  cursor: pointer;
+}
+.slideshow-container {
+max-width: 1000%;
+position: relative;
+margin: auto;
+cursor: pointer;
+margin-top: 20px;
+/* display: flex; */
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+/* ///FLEX THE IMGAE AND CONTENT */
+.Aflex{
+display: flex;
+width: 100%;
+height: 700px;
+
+}
+
+.text{
+position: relative;
+left: 20%;
+bottom: -40%;
+padding:64px 60px
+}
+.text h2{
+color:#12284c;
+font-size: 32px;
+font-family: "Monserrat Light" ,sans-serif;
+}
+.text p{
+color:#12284c;
+font-size: 16px;
+font-family: "Monserrat Light" ,sans-serif;
+}
+.text a{
+color:#12284c;
+font-size: 16px;
+font-family: "Monserrat Semi Bold" ,sans-serif;
+text-decoration: none;
+border-bottom: 2px solid #12284c;
+}
+.text2{
+position: relative;
+left: 15%;
+bottom: -20%;
+padding:64px 60px
+}
+.text a{
+color:#12284c;
+font-size: 16px;
+font-family: "Monserrat Semi Bold" ,sans-serif;
+text-decoration: none;
+border-bottom: 2px solid #12284c;
+}
+.text2 a{
+color:#12284c;
+font-size: 16px;
+font-family: "Monserrat Semi Bold" ,sans-serif;
+text-decoration: none;
+border-bottom: 2px solid #12284c;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #eee;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+text-align: left;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+
+}
+/* mid heding */
+.Amid-heding{
+  width: 40%;
+  margin: auto;
+  /* border:1px solid red; */
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Amid-heding p{
+  color:#12284c;
+font-size: 16px;
+font-family: "Monserrat Light" ,sans-serif;
+}
+
+.Amid-heding a{
+  color:#12284c;
+  font-family: "Monserrat Light" ,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 2px solid #12284c;
+   } 
+/* secound */
+.slideshow-container2 {
+  max-width: 1000%;
+  position: relative;
+  margin: auto;
+  /* display: flex; */
+  }
+  
+  /* Next & previous buttons */
+  .prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    text-align: left;
+    }
+    
+    .active, .dot2:hover {
+    background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade2 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    
+    }
+    
+    .slideshow-container2 {
+      max-width: 1000%;
+      position: relative;
+      margin: auto;
+      /* display: flex; */
+      margin-top: 10px;
+      }
+    .text3{
+      position: relative;
+      left: 10%;
+      bottom: -35%;
+      padding:64px 60px
+      }
+      .text3 h3{
+      color:#12284c;
+      font-size: 16px;
+      font-family: "Monserrat Medium" ,sans-serif;
+      margin: -5.2px 0px 5px;
+      }
+      .text3 h2{
+      color:#12284c;
+      font-size: 32px;
+      font-family: "Montserrat Light" ,sans-serif;
+      margin:0px 0px 14px;
+      }
+      .text3 a{
+      color:#12284c;
+      font-size: 16px;
+      font-family: "Monserrat Semi Bold" ,sans-serif;
+      text-decoration: none;
+      border-bottom: 2px solid #12284c;
+      }
+     
+         /* 3 th slider */
+         .slideshow-container {
+          max-width: 1000%;
+          position: relative;
+          margin: auto;
+          /* display: flex; */
+          }
+          
+          /* Next & previous buttons */
+          .prev3, .next3 {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next3 {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev3:hover, .next3:hover {
+          background-color: rgba(0,0,0,0.8);
+          }
+          .dot3 {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #eee;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            text-align: left;
+            }
+            
+            .active, .dot3:hover {
+            background-color: #12284c;
+            }
+            
+            /* Fading animation */
+            .fade3 {
+            animation-name: fade;
+            animation-duration: 1.5s;
+            
+            }
+
+
+            .text4{
+              position: relative;
+              /* left: 2%; */
+              bottom: -30%;
+              padding:64px 60px;
+              text-align: center;
+              }
+              .text4 h3{
+              color:#12284c;
+              font-size: 16px;
+              font-family: "Monserrat Medium" ,sans-serif;
+              margin: -5.2px 0px 5px;
+              text-align: center;
+              }
+              .text4 p{
+                color:#12284c;
+                text-align: center;
+                font-size: 16px;
+                font-family: "Montserrat Light", sans-serif;
+                
+              }
+              .text4 h2{
+              color:#12284c;
+              font-size: 32px;
+              font-family: "Montserrat Light" ,sans-serif;
+              margin:0px 0px 14px;
+              text-align: center;
+              }
+              .text4 a{
+              color:#12284c;
+              font-size: 16px;
+              font-family: "Monserrat Semi Bold" ,sans-serif;
+              text-decoration: none;
+              border-bottom: 2px solid #12284c;
+              text-align: center;
+              }
+
+              /* 4 th slider */
+              .slideshow-container4 {
+                max-width: 1000%;
+                position: relative;
+                margin: auto;
+                /* display: flex; */
+                }
+                
+                /* Next & previous buttons */
+                .prev4, .next4 {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next4 {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev4:hover, .next4:hover {
+                background-color: rgba(0,0,0,0.8);
+                }
+                .dot4 {
+                  cursor: pointer;
+                  height: 15px;
+                  width: 15px;
+                  margin: 0 2px;
+                  background-color: #eee;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;
+                  text-align: left;
+                  }
+                  
+                  .active, .dot4:hover {
+                  background-color: #12284c;
+                  }
+                  
+                  /* Fading animation */
+                  .fade4 {
+                  animation-name: fade;
+                  animation-duration: 1.5s;
+                  
+                  }
+                  .A-all-img{
+                    display: flex;
+                    width: 100%;
+                    height: 100px;
+                    /* border: 0.1px solid #12284c; */
+                    justify-content: space-between ;
+
+                  }
+                  .A-all-img img{
+                    width: 20%;
+                    height: 150px;
+
+                  }
+                  .A-all-img img{
+                    cursor: pointer;
+                  }
+      
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+      .prev2, .next2,.text {font-size: 11px}
+      }
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}

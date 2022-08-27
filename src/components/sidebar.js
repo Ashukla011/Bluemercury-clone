@@ -25,12 +25,12 @@ function sidebar(){
               <ul class="hide">
               <div class="li_check">
               <input type="checkbox" />
-              <li id="canadian">Canadian</li>
+              <li id="canadian" value = "canadian">Canadian</li>
               </div>
 
                  <div class="li_check">
               <input type="checkbox" />
-              <li id="certClean" >CertClean</li>
+              <li id="certClean" value = "certClean" >CertClean</li>
               </div>
 
               <div class="li_check">
@@ -85,14 +85,10 @@ function sidebar(){
                >add</span
              >
              </div>
-            <ul class="hide2">
-            <div class="li_check" onclick="csearch">
-            <p id="almay" >Almay</p>
-            </div>
 
             <div class="li_check">
             <input type="checkbox" />
-            <li id="alva">Alva</li>
+            <li id="dior" value = "dior">Dior</li>
             </div>
 
             <div class="li_check">

@@ -47,6 +47,40 @@ let  append= (x) =>{
 let saveData = () => {
     console.log("working")
 }
-// let cSearch = () => {
-//     console.log("working ")
-//    }
+
+let canadian = document.getElementById("canadian");
+canadian.onclick = () =>{
+    cSearch()
+}
+  let cSearch = async(na)=>{
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=201&_limit=60&product_tags=canadian`);
+    let x = await res.json();
+    console.log(x)
+  
+    append(x)
+  }
+
+  let certClean = document.getElementById("certClean");
+  certClean.onclick = () =>{
+      cSearch2()
+  }
+    let cSearch2 = async(na)=>{
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=250&_limit=60&product_tags=certClean`);
+      let x = await res.json();
+      console.log(x)
+    
+      append(x)
+    }
+
+    let dior = document.getElementById("dior");
+    dior.onclick = () =>{
+      cSearch3()
+  }
+    let cSearch3 = async(na)=>{
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?brand=dior`);
+      let x = await res.json();
+      console.log(x)
+    
+      append(x)
+    }
+   

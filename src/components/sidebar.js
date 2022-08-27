@@ -184,9 +184,8 @@ function sidebar() {
              >
              </div>
             <ul class="hide2">
-            <div class="li_check">
-            <input type="checkbox" />
-            <li id="almay">Almay</li>
+            <div class="li_check" onclick="csearch">
+            <p id="almay" >Almay</p>
             </div>
 
             <div class="li_check">
@@ -284,15 +283,19 @@ function sidebar() {
 </div>
   `
 }
+// <<<<<<< HEAD
 function sortby() {
   return ` 
   <select name="" id="_sort">
-  <option value="">Featured</option>
+  <option value="">Featured</option>`
+}
+function sortby(){
+  return  ` <select name="" >
+  <option value="" >Featured</option>
   <option value="">New Arrivals</option>
   <option value="">Best Sellers</option>
   <option value="lth" >Price,Low to High</option>
   <option value="htl">Price,High to Low</option>
- </select>
-  `
+ </select>` 
 }
 export { sidebar, sortby };

@@ -11,8 +11,24 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <style>
+        #right_main_bottom{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .list1:hover{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .list1{
+            width: 200px;
+        }
+        .list1>img{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+   
     <div id="product_main">
         <div id="sidebar"></div>
         <div id="right_main">
@@ -31,4 +47,6 @@
     </div>
 </body>
 </html>
+
 <script src="./scripts/productPage.js" type="module"></script>
+<script src="./scripts/productdata.js" type="module"></script>

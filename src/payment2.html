@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="./styles/payment.css">
+</head>
+
+<body>
+
+  <div id="Main"
+    style="width: 90%; margin: 100px auto 0; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;">
+    <div>
+      <!-- left side Form -->
+    <div id="main-div">
+
+      <div class="heading">
+        <img width="40%" src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/blm-checkout-logo.png?65041" />
+        <div style="font-size: 12px; color: rgba(18, 40, 76, 0.7); margin-top: 15px; margin-bottom: 25px;">
+          Cart > Customer information > Shipping method > Payment method
+        </div>
+      </div>
+</div>
+<div id="detailing">
+ <div id="cont"></div>
+ <div id="meth"></div>
+ <div id="ship"></div>
+</div>
+<p style="color:  rgba(18, 40, 76, 0.6); font-size: 15px; text-align: left; margin-left: 8px;">By continuing, you agree to Bluemercury's <a href="" style="color: grey;">Privacy Note</a>
+</p>
+<h2 id="pay2">Payment Method</h2>
+<p style="color:  rgba(18, 40, 76, 0.6); font-size: 15px; text-align: left; margin-left: 8px;">All transactions are secure and encrypted.</p>
+      <form class="PaymentForm" onsubmit="payMoney(event)">
+       <div style="display:flex; margin-top: none; margin-left: 10px;">
+              <input class="news-checkbox" type="checkbox" checked="checked">
+              <label type="checkbox__label" style="font-size: 14px; margin-left: 20px; ">Credit card
+        <div id="img6"><img src="https://cdn0.iconfinder.com/data/icons/major-credit-cards-colored/48/JD-08-256.png" alt="ERROR">
+                <img src="https://cdn0.iconfinder.com/data/icons/major-credit-cards-colored/48/JD-07-256.png" alt="">
+                <img src="https://cdn0.iconfinder.com/data/icons/major-credit-cards-colored/48/JD-03-256.png" alt="">
+                <img src="https://cdn0.iconfinder.com/data/icons/major-credit-cards-colored/48/JD-05-256.png" alt="">
+                </div>
+              </label>
+            </div>
+            <hr style="width: 100%;">
+            <input type="text" placeholder="Card Number" id="cardno"><br>
+            <input type="text" placeholder="Name on Card" id="cardname"><br>
+            <input type="text" placeholder="Expiration Date (MM / YY)" id="expiry">
+            <input type="text" placeholder="Security Code" id="code">
+            <div id="paypal"><button><img src="https://cdn.shopify.com/shopifycloud/shopify/assets/checkout/offsite-gateway-logos/paypal@2x-768388b0667bef1aa9a7cf02fa1cc2184c2915a90d4cdd62dde223f74f2acbfc.png" alt=""></button></div>
+          <div>
+            <a href="" style="color: #12284c; font-size: 12px;">
+              < RETURN TO CART</a>
+                <button class="End_btn" style="width: 300px; margin-left: 150px; font-weight: 600; " id="submit-btn" >COMPLETE ORDER</button>
+          </div>
+        </div>
+        <hr />
+        <p style="font-size: 12px;margin-right: 400px; ">All rights reserved bluemercury</p>
+      </div>
+
+      </form>
+    </div>
+
+    <!--  -->
+    <div id="p-right-section" style="padding-top: 10px; padding-bottom: 10px;">
+      
+    </div>
+  </div>
+</body>
+
+
+</html>
+<script src="./scripts/payment.js"></script>

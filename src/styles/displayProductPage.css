@@ -25,6 +25,7 @@
     width: 199px;
     height: 50px;
 }
+/* <<<<<<< HEAD */
 * {
     font-weight: 450;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -47,3 +48,10 @@
   #viewed {
     margin-left: 100px;
   }
+
+/* ///////////////////////////////////container1\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#container1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}

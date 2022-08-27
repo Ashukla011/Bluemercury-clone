@@ -62,6 +62,7 @@ var flag4 = true;
     }
   });
 
+// <<<<<<< HEAD
 
   //  id for adding functionality on the basis of "category"
   let powder = document.querySelector("#powder").addEventListener("click",async function () {
@@ -196,3 +197,14 @@ let  append= (x) =>{
 let saveData = () => {
     console.log("working")
 }
+// =======
+  let csearch = () =>{
+      // var p=document.querySelector("#a").checked
+      // var l=document.querySelector("#a").value
+
+        console.log("yes")
+      }
+      function yes(){
+        console.log("sorting function")
+      }
+// >>>>>>> master

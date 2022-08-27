@@ -43,6 +43,7 @@ body{
     width: 100%;
     height: 100px;
     text-align: center;
+    margin-top: 100px;
    /* border: 1px solid  indigo; */
 
 }
@@ -58,6 +59,7 @@ body{
     width: 100%;
     height: 600px;
     display: flex;
+    margin-top: 40px;
     /* border: 1px solid indigo; */
     padding: 32px 0px;
 
@@ -87,7 +89,7 @@ body{
     font-size: 28px;
     font-family: "playfair Desplay Regular", serif;
 }
- p{
+#Atimeline-inner p{
     color:#12284c;
     font-size: 16px;
     font-family: Montserrat Light,sans-serif;

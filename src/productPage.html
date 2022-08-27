@@ -7,9 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/productPage.css">
     <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.css">
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
+    <link rel="stylesheet" href="./styles/header.css">
     />
     <style>
         #right_main_bottom{
@@ -28,30 +26,31 @@
     </style>
 </head>
 <body>
-   
+    <div id="head" style="margin-bottom: 70px;"></div><br>
+    <h1>NEW ARRIVALS</h1>
+
     <div id="product_main">
         <div id="sidebar"></div>
+        <div  id="right_main_sort"></div>
         <div id="right_main">
-            <div id="right_main_top">
-                <h1>NEW ARRIVALS</h1>
-                <div  id="right_main_sort"><h3>SORT BY</h3>  
+            <div id="right_main_top"> 
                     
                     <div id="right_main_select"></div>
             </div>
         </div>
-        <hr>
-
+    </div>
         <!-- append here -->
         <div id="right_main_bottom"></div>
-  
+        
     </div>
     <div id="pagination">
         <button id="1" onclick="pegination(this.id)">1</button>
         <button id="2" onclick="pegination(this.id)">2</button>
         
-    </div>
-</body>
+    </div><br>
+    <div id="foot"></div>
+    </body>
 </html>
-
+<script src="./scripts/navbar.js" type="module"></script>
 <script src="./scripts/productPage.js" type="module"></script>
-<script src="./scripts/productdata.js" type="module"></script>
+ <script src="./scripts/productdata.js" type="module"></script>

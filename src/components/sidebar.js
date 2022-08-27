@@ -25,12 +25,12 @@ function sidebar(){
               <ul class="hide">
               <div class="li_check">
               <input type="checkbox" />
-              <li id="canadian">Canadian</li>
+              <li id="canadian" value = "canadian">Canadian</li>
               </div>
 
                  <div class="li_check">
               <input type="checkbox" />
-              <li id="certClean" >CertClean</li>
+              <li id="certClean" value = "certClean" >CertClean</li>
               </div>
 
               <div class="li_check">
@@ -85,14 +85,10 @@ function sidebar(){
                >add</span
              >
              </div>
-            <ul class="hide2">
-            <div class="li_check" onclick="csearch">
-            <p id="almay" >Almay</p>
-            </div>
 
             <div class="li_check">
             <input type="checkbox" />
-            <li id="alva">Alva</li>
+            <li id="dior" value = "dior">Dior</li>
             </div>
 
             <div class="li_check">
@@ -184,12 +180,12 @@ function sidebar(){
 }
 function sortby(){
   return  ` 
-  <select name="" id="">
+  <select name="" id="select tag" onchange ="filter()">
   <option value="" >Featured</option>
-  <option value="">New Arrivals</option>
-  <option value="">Best Sellers</option>
-  <option value="">Price,Low to High</option>
-  <option value="">Price,High to Low</option>
+  <option id="newarrivals" value="newarrivals">New Arrivals</option>
+  <option id="best_sellers" value="best_sellers">Best Sellers</option>
+  <option id="low_high" value="low_high">Price,Low to High</option>
+  <option id="high_low" value="high_low">Price,High to Low</option>
  </select>
   `
 }

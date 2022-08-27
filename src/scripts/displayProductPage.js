@@ -23,6 +23,8 @@ m.innerHTML = null
       let tt = document.createElement("p");
       tt.innerText = "Price"+":"+" "+ y.price_sign+" "+ y.price
 
+      
+
       let div = document.createElement("div"); 
       let data = document.createElement("div");
       let container = document.createElement("div")

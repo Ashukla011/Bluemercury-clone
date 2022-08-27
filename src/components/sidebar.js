@@ -180,12 +180,12 @@ function sidebar(){
 }
 function sortby(){
   return  ` 
-  <select name="" id="">
+  <select name="" id="select tag" onchange ="filter()">
   <option value="" >Featured</option>
-  <option value="">New Arrivals</option>
-  <option value="">Best Sellers</option>
-  <option value="">Price,Low to High</option>
-  <option value="">Price,High to Low</option>
+  <option id="newarrivals" value="newarrivals">New Arrivals</option>
+  <option id="best_sellers" value="best_sellers">Best Sellers</option>
+  <option id="low_high" value="low_high">Price,Low to High</option>
+  <option id="high_low" value="high_low">Price,High to Low</option>
  </select>
   `
 }

@@ -1,1 +1,1094 @@
 .
+{
+      "id": 654,
+      "brand": "iman",
+      "name": "Luxury Blushing Powder Posh",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/786cee296437aad03a74bba37a11f2a2.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/face/blush/posh",
+      "website_link": "http://imancosmetics.com/",
+      "description": "0.11oz (3g) Silky powder blush that provides true color with a natural looking, long-lasting finish. Made in China. ",
+      "rating": null,
+      "category": "powder",
+      "product_type": "blush",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:05:36.814Z",
+      "updated_at": "2017-12-23T21:08:03.598Z",
+      ".": "https://0/api/v1/products/654.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/654/original/open-uri20171223-4-zp7vbi?1514063283",
+      "product_colors": [
+      {
+      "hex_value": "#d55c67",
+      "colour_name": "Posh"
+      },
+      {
+      "hex_value": "#ad444a",
+      "colour_name": "Peace"
+      },
+      {
+      "hex_value": "#e38069",
+      "colour_name": "Allure"
+      },
+      {
+      "hex_value": "#b06037",
+      "colour_name": "Sunlit Copper"
+      },
+      {
+      "hex_value": "#6e3b18",
+      "colour_name": "Sable"
+      }
+      ]
+      },
+      {
+      "id": 653,
+      "brand": "iman",
+      "name": "Skin Tone Evener BB Crème Clay Medium",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://s3.amazonaws.com/imancosmetics.com/resources/uploads/product_colors/a35f689153e4120726821fc42e27a2cc.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/skincare/bb-creme/clay-medium",
+      "website_link": "http://imancosmetics.com/",
+      "description": "1.0 fl oz Skin tone evening Beauty Balm combines skin care and a sheer hint of color that compliments the natural tones of Women with Skin of Color. IMAN Skin Tone Evener Complex, Licorice, Grape Seed, Kokum, Almond, Aloe and Vitamins A,E & C. ",
+      "rating": null,
+      "category": "bb_cc",
+      "product_type": "foundation",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:05:32.141Z",
+      "updated_at": "2017-12-23T21:05:06.234Z",
+      ".": "https://0/api/v1/products/653.json",
+      "api_featured_image": "/images/original/missing.png",
+      "product_colors": [
+      {
+      "hex_value": "#F2B791",
+      "colour_name": "Sand Light"
+      },
+      {
+      "hex_value": "#ECAD79",
+      "colour_name": "Sand Medium"
+      },
+      {
+      "hex_value": "#DD925F",
+      "colour_name": "Clay Medium"
+      },
+      {
+      "hex_value": "#C77E4D",
+      "colour_name": "Clay Medium Deep"
+      },
+      {
+      "hex_value": "#965831",
+      "colour_name": "Earth Medium"
+      },
+      {
+      "hex_value": "#7C4B2D",
+      "colour_name": "Earth Deep"
+      }
+      ]
+      },
+      
+      {
+      "id": 650,
+      "brand": "iman",
+      "name": "Perfect Mascara Black",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/708992b9f3326d3565424001d44af67d.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/eyes/perfect-mascara/black",
+      "website_link": "http://imancosmetics.com/",
+      "description": "0.3oz (8g) Thickens, lengthens and separates lashes ",
+      "rating": null,
+      "category": null,
+      "product_type": "mascara",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:05:16.516Z",
+      "updated_at": "2017-12-23T20:51:29.342Z",
+      ".": "https://0/api/v1/products/650.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/650/original/open-uri20171223-4-ml7tt0?1514062289",
+      "product_colors": []
+      },
+      {
+      "id": 649,
+      "brand": "iman",
+      "name": "Amplify Mascara Black Ink",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/081fb8969ded21fd9beda8000e61c460.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/eyes/amplify-mascara/black-ink",
+      "website_link": "http://imancosmetics.com/",
+      "description": "24oz (7g) Thickens, lengthens & separates lashes. Extends and amplifies each lash, so even the tiniest lashes will not be denied. ",
+      "rating": null,
+      "category": null,
+      "product_type": "mascara",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:05:11.236Z",
+      "updated_at": "2017-12-23T20:51:28.535Z",
+      ".": "https://0/api/v1/products/649.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/649/original/open-uri20171223-4-10cz7j2?1514062288",
+      "product_colors": []
+      },
+      {
+      "id": 648,
+      "brand": "iman",
+      "name": "Perfect Eyebrow Pencil Blackest Brown",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/1a62206fbf4800fd0cc9e6690ae7aa9d.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/eyes/browpencil/blackest-brown",
+      "website_link": "http://imancosmetics.com/",
+      "description": "0.05oz (1.5g) Versatile new product that combines the precise definition of an eye liner and the silky application of an eye shadow and the pearlescent finish of a shimmer powder. Made in China. ",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:05:06.144Z",
+      "updated_at": "2017-12-23T20:51:28.352Z",
+      ".": "https://0/api/v1/products/648.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/648/original/open-uri20171223-4-1tf53ma?1514062288",
+      "product_colors": []
+      },
+      {
+      "id": 647,
+      "brand": "iman",
+      "name": "Perfect Eye Pencil Ebony",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/EyePencil_Ebony.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/eyes/eyepencil/ebony",
+      "website_link": "http://imancosmetics.com/",
+      "description": "0.05oz (1.5g) Expertly defines & lines eyes. Made in USA. ",
+      "rating": null,
+      "category": "pencil",
+      "product_type": "eyeliner",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:05:00.721Z",
+      "updated_at": "2017-12-23T20:51:24.963Z",
+      ".": "https://0/api/v1/products/647.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/647/original/open-uri20171223-4-1glzvo5?1514062284",
+      "product_colors": [
+      {
+      "hex_value": "#283434",
+      "colour_name": "Black Shimmer"
+      },
+      {
+      "hex_value": "#583939",
+      "colour_name": "Nut Bush"
+      },
+      {
+      "hex_value": "#000000",
+      "colour_name": "Jet Black"
+      }
+      ]
+      },
+      {
+      "id": 646,
+      "brand": "iman",
+      "name": "Luxury Moisturizing Lipstick IMAN Nude",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/d7bbcae0b6eff8013fda0a15280037c4.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/lips/lipstick/iman-nude",
+      "website_link": "http://imancosmetics.com/",
+      "description": "13oz (3.7g) Luscious creamy, semi-matte lip color for full coverage and a long-lasting smooth finish. Made in China. ",
+      "rating": null,
+      "category": "lipstick",
+      "product_type": "lipstick",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:04:54.792Z",
+      "updated_at": "2017-12-23T20:51:22.894Z",
+      ".": "https://0/api/v1/products/646.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/646/original/open-uri20171223-4-nxq9so?1514062282",
+      "product_colors": [
+      {
+      "hex_value": "#d27d56",
+      "colour_name": "NEW IMAN Nude"
+      },
+      {
+      "hex_value": "#c26256",
+      "colour_name": "NEW Baby Doll"
+      },
+      {
+      "hex_value": "#b5432a",
+      "colour_name": "NEW Hipster"
+      },
+      {
+      "hex_value": "#a43a44",
+      "colour_name": "NEW Diva"
+      },
+      {
+      "hex_value": "#632528",
+      "colour_name": "NEW Drama Queen"
+      },
+      {
+      "hex_value": "#602714",
+      "colour_name": "NEW Rebel"
+      },
+      {
+      "hex_value": "#c47636",
+      "colour_name": "Sheer Gold"
+      },
+      {
+      "hex_value": "#a17e49",
+      "colour_name": "Citron"
+      },
+      {
+      "hex_value": "#ff4814",
+      "colour_name": "Hot"
+      },
+      {
+      "hex_value": "#f4436d",
+      "colour_name": "Kinky Pink"
+      },
+      {
+      "hex_value": "#b15336",
+      "colour_name": "Paprika"
+      },
+      {
+      "hex_value": "#d71d32",
+      "colour_name": "Iman Red"
+      },
+      {
+      "hex_value": "#af0061",
+      "colour_name": "Flirtatious"
+      },
+      {
+      "hex_value": "#a32136",
+      "colour_name": "Scandalous"
+      },
+      {
+      "hex_value": "#874e41",
+      "colour_name": "Sheer Ice Tea"
+      },
+      {
+      "hex_value": "#6a494c",
+      "colour_name": "Opal"
+      },
+      {
+      "hex_value": "#73308b",
+      "colour_name": "Taboo"
+      },
+      {
+      "hex_value": "#734942",
+      "colour_name": "Jaguar"
+      },
+      {
+      "hex_value": "#651738",
+      "colour_name": "Wild Thing"
+      },
+      {
+      "hex_value": "#52182c",
+      "colour_name": "Black Brandy"
+      }
+      ]
+      },
+      {
+      "id": 645,
+      "brand": "iman",
+      "name": "Luxury Eye Shadow Bejeweled",
+      "price": null,
+      "price_sign": null,
+      "currency": null,
+      "image_link": "http://imancosmetics.com/resources/uploads/product_colors/EyeShadow_Bejeweled.jpg",
+      "product_link": "http://imancosmetics.com/shop/products/eyes/eyeshadow/bejeweled",
+      "website_link": "http://imancosmetics.com/",
+      "description": "0.05oz (1.42g) Silky, long-lasting crease-resistant formula crease resistant wear in true-color mattes, and low luster pearls. Made in China. ",
+      "rating": null,
+      "category": null,
+      "product_type": "eyeshadow",
+      "tag_list": [],
+      "created_at": "2016-10-03T14:04:49.180Z",
+      "updated_at": "2017-12-23T20:51:19.960Z",
+      ".": "https://0/api/v1/products/645.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/645/original/open-uri20171223-4-a3piee?1514062279",
+      "product_colors": [
+      {
+      "hex_value": "#ffd9ac",
+      "colour_name": "White Gold"
+      },
+      {
+      "hex_value": "#bc8473",
+      "colour_name": "Mixed Metal"
+      },
+      {
+      "hex_value": "#e8e7e3",
+      "colour_name": "Mixed Metal"
+      },
+      {
+      "hex_value": "#6e4e40",
+      "colour_name": "Hot Chocolate"
+      },
+      {
+      "hex_value": "#dbbdb4",
+      "colour_name": "Hot Chocolate"
+      },
+      {
+      "hex_value": "#874d25",
+      "colour_name": "Bejeweled"
+      },
+      {
+      "hex_value": "#de9d7c",
+      "colour_name": "Bejeweled"
+      },
+      {
+      "hex_value": "#99978d",
+      "colour_name": "Pewter"
+      },
+      {
+      "hex_value": "#a05d42",
+      "colour_name": "Nutmeg"
+      },
+      {
+      "hex_value": "#9a6758",
+      "colour_name": "Tiger Eye"
+      },
+      {
+      "hex_value": "#543227",
+      "colour_name": "Bronze Goddess"
+      },
+      {
+      "hex_value": "#b27866",
+      "colour_name": "Bronze Goddess"
+      },
+      {
+      "hex_value": "#7c735b",
+      "colour_name": "Safari"
+      },
+      {
+      "hex_value": "#6b5a73",
+      "colour_name": "African Violet"
+      }
+      ]
+      },
+      {
+      "id": 644,
+      "brand": "benefit",
+      "name": "the POREfessional: agent zero shine",
+      "price": "39.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/porefessional-agent-zero-shine-component0.png?itok=hs_TMG5b",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/porefessional-agent-zero-shine",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "shine-vanishing PRO powder",
+      "rating": null,
+      "category": "powder",
+      "product_type": "foundation",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:27.772Z",
+      "updated_at": "2017-12-23T20:42:45.094Z",
+      ".": "https://0/api/v1/products/644.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/644/original/open-uri20171223-4-1864ho4?1514061765",
+      "product_colors": []
+      },
+      {
+      "id": 643,
+      "brand": "benefit",
+      "name": "hello flawless! powder foundation",
+      "price": "44.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hello-flawless-component0_2.png?itok=uXFWqH_i",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/hello-flawless",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "custom powder cover-up",
+      "rating": null,
+      "category": "powder",
+      "product_type": "foundation",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:27.384Z",
+      "updated_at": "2017-12-23T20:42:44.866Z",
+      ".": "https://0/api/v1/products/643.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/643/original/open-uri20171223-4-16i2mi8?1514061764",
+      "product_colors": [
+      {
+      "hex_value": "#f4dac4",
+      "colour_name": "ivory"
+      },
+      {
+      "hex_value": "#f1d3b5",
+      "colour_name": "petal"
+      },
+      {
+      "hex_value": "#f9d9be",
+      "colour_name": "champagne"
+      },
+      {
+      "hex_value": "#f4d4bb",
+      "colour_name": "honey"
+      },
+      {
+      "hex_value": "#ecba97",
+      "colour_name": "beige"
+      },
+      {
+      "hex_value": "#f9be8a",
+      "colour_name": "toasted beige"
+      },
+      {
+      "hex_value": "#fbb171",
+      "colour_name": "amber"
+      },
+      {
+      "hex_value": "#dc8e5a",
+      "colour_name": "hazelnut"
+      },
+      {
+      "hex_value": "#cf743b",
+      "colour_name": "nutmeg"
+      }
+      ]
+      },
+      {
+      "id": 641,
+      "brand": "benefit",
+      "name": "dallas dusty rose face powder",
+      "price": "36.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/dallas-component2.png?itok=faVNQISZ",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/dallas",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "an outdoor glow for an indoor gal face powder",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:26.889Z",
+      "updated_at": "2017-12-23T20:42:44.364Z",
+      ".": "https://0/api/v1/products/641.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/641/original/open-uri20171223-4-1yca462?1514061764",
+      "product_colors": [
+      {
+      "hex_value": "#CE9990",
+      "colour_name": null
+      }
+      ]
+      },
+      {
+      "id": 640,
+      "brand": "benefit",
+      "name": "rockateur",
+      "price": "36.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/rockateur-component0_0.png?itok=v8BJdMkW",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/rockateur",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "famously provocative cheek powder",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:26.651Z",
+      "updated_at": "2017-12-23T20:42:44.129Z",
+      ".": "https://0/api/v1/products/640.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/640/original/open-uri20171223-4-11ws6ld?1514061764",
+      "product_colors": []
+      },
+      {
+      "id": 639,
+      "brand": "benefit",
+      "name": "cheekathon bronzer & blush palette",
+      "price": "75.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/cheekathon-blush-kit-component.png?itok=6ih0smf9",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/cheekathon",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "“kick up your cheeks” blush kit",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:26.478Z",
+      "updated_at": "2017-12-23T20:42:43.806Z",
+      ".": "https://0/api/v1/products/639.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/639/original/open-uri20171223-4-1uw9qxu?1514061763",
+      "product_colors": []
+      },
+      {
+      "id": 638,
+      "brand": "benefit",
+      "name": "hoola matte bronzer travel size mini",
+      "price": "20.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hoola-bop-travel-size-mini-component.png?itok=LKwNE-XE",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/hoola-travel-size-mini",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "bronzing powder",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:26.224Z",
+      "updated_at": "2017-12-23T20:42:43.525Z",
+      ".": "https://0/api/v1/products/638.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/638/original/open-uri20171223-4-6yj6jk?1514061763",
+      "product_colors": []
+      },
+      {
+      "id": 637,
+      "brand": "benefit",
+      "name": "dew the hoola liquid bronzer",
+      "price": "36.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/dew-the-hoola-component.png?itok=gu3O77Hr",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/dew-the-hoola",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "soft-matte liquid bronzer for face",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:25.992Z",
+      "updated_at": "2017-12-23T20:42:43.271Z",
+      ".": "https://0/api/v1/products/637.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/637/original/open-uri20171223-4-egj5ho?1514061763",
+      "product_colors": []
+      },
+      {
+      "id": 636,
+      "brand": "benefit",
+      "name": "hoola matte bronzer ",
+      "price": "36.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hoola-component0_0.png?itok=C1YPXstp",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/hoola",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "bronzing powder",
+      "rating": null,
+      "category": null,
+      "product_type": "bronzer",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:25.612Z",
+      "updated_at": "2017-12-23T20:42:43.032Z",
+      ".": "https://0/api/v1/products/636.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/636/original/open-uri20171223-4-1ueeqbp?1514061762",
+      "product_colors": [
+      {
+      "hex_value": "#DEB094",
+      "colour_name": null
+      }
+      ]
+      },
+      {
+      "id": 635,
+      "brand": "benefit",
+      "name": "high brow glow brow highlighter ",
+      "price": "29.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/1high-brow-glow-component_0.png?itok=9l5JyWCo",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/high-brow-glow-new",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "luminous brow highlighting pencil",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:25.311Z",
+      "updated_at": "2017-12-23T20:42:42.804Z",
+      ".": "https://0/api/v1/products/635.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/635/original/open-uri20171223-4-ymwj34?1514061762",
+      "product_colors": []
+      },
+      {
+      "id": 634,
+      "brand": "benefit",
+      "name": "high brow eyebrow highlighter ",
+      "price": "29.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/1high-brow-component_0.png?itok=XpUgoe35",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/high-brow-new",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "creamy brow highlighting pencil",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:25.045Z",
+      "updated_at": "2017-12-23T20:42:42.579Z",
+      ".": "https://0/api/v1/products/634.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/634/original/open-uri20171223-4-xq5rvq?1514061762",
+      "product_colors": []
+      },
+      {
+      "id": 633,
+      "brand": "benefit",
+      "name": "brow zings eyebrow shaping kit ",
+      "price": "42.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/1brow-zings-component_0.png?itok=I0xVlW54",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/brow-zings-new",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "total taming & shaping kit for brows",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:24.771Z",
+      "updated_at": "2017-12-23T20:42:42.321Z",
+      ".": "https://0/api/v1/products/633.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/633/original/open-uri20171223-4-76w4zc?1514061762",
+      "product_colors": [
+      {
+      "hex_value": "#cda885",
+      "colour_name": "01 - light"
+      },
+      {
+      "hex_value": "#ab8d7c",
+      "colour_name": "02 - light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "03 - medium"
+      },
+      {
+      "hex_value": "#64483c",
+      "colour_name": "04 - medium"
+      },
+      {
+      "hex_value": "#5c4743",
+      "colour_name": "05 - deep"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "06 - deep"
+      }
+      ]
+      },
+      {
+      "id": 632,
+      "brand": "benefit",
+      "name": "BROWVO! conditioning eyebrow primer ",
+      "price": "36.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/browvo-conditioning-primer-component_0.png?itok=PRNTJlTU",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/browvo",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "nutrient-rich primer for fuller-looking brows",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:24.528Z",
+      "updated_at": "2017-12-23T20:42:42.071Z",
+      ".": "https://0/api/v1/products/632.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/632/original/open-uri20171223-4-181cbme?1514061761",
+      "product_colors": []
+      },
+      {
+      "id": 631,
+      "brand": "benefit",
+      "name": "precisely, my brow eyebrow pencil ",
+      "price": "30.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/precisely-my-brow-pencil-component_0.png?itok=oOfirtAR",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/precisely-my-brow",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "ultra-fine brow defining pencil",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:24.189Z",
+      "updated_at": "2017-12-23T20:42:41.842Z",
+      ".": "https://0/api/v1/products/631.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/631/original/open-uri20171223-4-yeeud8?1514061761",
+      "product_colors": [
+      {
+      "hex_value": "#cda885",
+      "colour_name": "01 - light"
+      },
+      {
+      "hex_value": "#ab8d7c",
+      "colour_name": "02 - light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "03 - medium"
+      },
+      {
+      "hex_value": "#64483c",
+      "colour_name": "04 - medium"
+      },
+      {
+      "hex_value": "#5c4743",
+      "colour_name": "05 - deep"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "06 - deep"
+      }
+      ]
+      },
+      {
+      "id": 630,
+      "brand": "benefit",
+      "name": "ka-BROW! eyebrow cream-gel color ",
+      "price": "30.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/ka-brow-component_new.png?itok=ToSDWDUX",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/ka-brow",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "cream-gel brow colour with brush",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:23.852Z",
+      "updated_at": "2017-12-23T20:42:41.648Z",
+      ".": "https://0/api/v1/products/630.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/630/original/open-uri20171223-4-ivog6p?1514061761",
+      "product_colors": [
+      {
+      "hex_value": "#cda885",
+      "colour_name": "01 - light"
+      },
+      {
+      "hex_value": "#ab8d7c",
+      "colour_name": "02 - light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "03 - medium"
+      },
+      {
+      "hex_value": "#64483c",
+      "colour_name": "04 - medium"
+      },
+      {
+      "hex_value": "#5c4743",
+      "colour_name": "05 - deep"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "06 - deep"
+      }
+      ]
+      },
+      {
+      "id": 629,
+      "brand": "benefit",
+      "name": "goof proof eyebrow pencil ",
+      "price": "30.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/goof-proof-pencil-component_0.png?itok=djbpd-ut",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/goof-proof",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "super easy brow-filling & shaping pencil",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:23.560Z",
+      "updated_at": "2017-12-23T20:42:41.450Z",
+      ".": "https://0/api/v1/products/629.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/629/original/open-uri20171223-4-jn7l55?1514061761",
+      "product_colors": [
+      {
+      "hex_value": "#cda885",
+      "colour_name": "01 - light"
+      },
+      {
+      "hex_value": "#ab8d7c",
+      "colour_name": "02 - light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "03 - medium"
+      },
+      {
+      "hex_value": "#64483c",
+      "colour_name": "04 - medium"
+      },
+      {
+      "hex_value": "#5c4743",
+      "colour_name": "05 - deep"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "06 - deep"
+      }
+      ]
+      },
+      {
+      "id": 628,
+      "brand": "benefit",
+      "name": "gimme brow volumizing eyebrow gel",
+      "price": "30.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/gimme-brow-component_new_0.png?itok=Yl4Nqi2O",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/gimme-brow-new",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "brow-volumising fibre gel",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:23.334Z",
+      "updated_at": "2017-12-23T20:42:41.223Z",
+      ".": "https://0/api/v1/products/628.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/628/original/open-uri20171223-4-1hz1xyp?1514061761",
+      "product_colors": [
+      {
+      "hex_value": "#cda885",
+      "colour_name": "01 - light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "03 - medium"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "05 - deep"
+      }
+      ]
+      },
+      {
+      "id": 627,
+      "brand": "benefit",
+      "name": "bigger & bolder brows kit",
+      "price": "44.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/bigger-and-bolder-brows-kit-component_0.png?itok=MzPgohjf",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/bigger-bolder-brows-kit",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "buildable-colour kit for dramatic brows",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:23.123Z",
+      "updated_at": "2017-12-23T20:42:40.910Z",
+      ".": "https://0/api/v1/products/627.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/627/original/open-uri20171223-4-152fbjz?1514061760",
+      "product_colors": [
+      {
+      "hex_value": "#cda885",
+      "colour_name": "light"
+      },
+      {
+      "hex_value": "#5c4743",
+      "colour_name": "deep"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "medium"
+      }
+      ]
+      },
+      {
+      "id": 626,
+      "brand": "benefit",
+      "name": "defined & refined brows kit",
+      "price": "44.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/defined-and-refined-brows-kit-component_0.png?itok=vzyOChYY",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/defined-refined-brows-kit",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "precision kit for expertly defined brows",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:22.926Z",
+      "updated_at": "2017-12-23T20:42:40.630Z",
+      ".": "https://0/api/v1/products/626.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/626/original/open-uri20171223-4-1pl1f9a?1514061760",
+      "product_colors": [
+      {
+      "hex_value": "#ab8d7c",
+      "colour_name": "light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "medium"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "deep"
+      }
+      ]
+      },
+      {
+      "id": 625,
+      "brand": "benefit",
+      "name": "soft & natural brows kit",
+      "price": "44.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/soft-and-natural-brows-kit-component_0.png?itok=wJqiVHDe",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/soft-natural-brows-kit",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "goof-proof kit for natural-looking brows",
+      "rating": null,
+      "category": null,
+      "product_type": "eyebrow",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:22.718Z",
+      "updated_at": "2017-12-23T20:42:40.404Z",
+      ".": "https://0/api/v1/products/625.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/625/original/open-uri20171223-4-m5burj?1514061760",
+      "product_colors": [
+      {
+      "hex_value": "#ab8d7c",
+      "colour_name": "light"
+      },
+      {
+      "hex_value": "#967765",
+      "colour_name": "medium"
+      },
+      {
+      "hex_value": "#504b49",
+      "colour_name": "deep"
+      }
+      ]
+      },
+      {
+      "id": 624,
+      "brand": "benefit",
+      "name": "hydra-smooth lip color",
+      "price": "23.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hydra-smooth-lip-color-component_0.png?itok=GGUNA2l1",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/hydra-smooth-lip-color",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "lip color",
+      "rating": null,
+      "category": "lipstick",
+      "product_type": "lipstick",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:22.208Z",
+      "updated_at": "2017-12-23T20:42:40.183Z",
+      ".": "https://0/api/v1/products/624.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/624/original/open-uri20171223-4-12tcoyi?1514061760",
+      "product_colors": [
+      {
+      "hex_value": "#d14146",
+      "colour_name": "juicy details"
+      },
+      {
+      "hex_value": "#f3576c",
+      "colour_name": "air kiss"
+      },
+      {
+      "hex_value": "#963a38",
+      "colour_name": "nice &#039;n teasy"
+      },
+      {
+      "hex_value": "#712f29",
+      "colour_name": "frisky business"
+      },
+      {
+      "hex_value": "#d64d3e",
+      "colour_name": "lip service"
+      },
+      {
+      "hex_value": "#ff5864",
+      "colour_name": "tutti-cutie"
+      },
+      {
+      "hex_value": "#8a3850",
+      "colour_name": "talk flirty"
+      },
+      {
+      "hex_value": "#7d2034",
+      "colour_name": "fling thing"
+      },
+      {
+      "hex_value": "#b80229",
+      "colour_name": "dare me"
+      },
+      {
+      "hex_value": "#ad3b33",
+      "colour_name": "wing woman"
+      }
+      ]
+      },
+      {
+      "id": 623,
+      "brand": "benefit",
+      "name": "BIG sexy lipstick set",
+      "price": "38.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/theyre-real-big-sexy-lip-kit-component_0.png?itok=1CmB3i_p",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/big-sexy-lipstick-set",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "4 all-in-one lipstick and liners",
+      "rating": null,
+      "category": "lipstick",
+      "product_type": "lipstick",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:21.916Z",
+      "updated_at": "2017-12-23T20:42:39.960Z",
+      ".": "https://0/api/v1/products/623.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/623/original/open-uri20171223-4-15ajw4w?1514061759",
+      "product_colors": []
+      },
+      {
+      "id": 622,
+      "brand": "benefit",
+      "name": "ultra plush lip gloss",
+      "price": "19.0",
+      "price_sign": null,
+      "currency": null,
+      "image_link": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/ultra-plush-lip-gloss-component_0.png?itok=nE6ZOF2q",
+      "product_link": "https://www.benefitcosmetics.com/ca/en-gb/product/ultra-plush-lip-gloss",
+      "website_link": "https://www.benefitcosmetics.com",
+      "description": "smooth & luscious lip gloss",
+      "rating": null,
+      "category": "lip_gloss",
+      "product_type": "lipstick",
+      "tag_list": [],
+      "created_at": "2016-10-02T11:37:20.799Z",
+      "updated_at": "2017-12-23T20:42:39.621Z",
+      ".": "https://0/api/v1/products/622.json",
+      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/622/original/open-uri20171223-4-1c5ch8u?1514061759",
+      "product_colors": [
+      {
+      "hex_value": "#fc4c88",
+      "colour_name": "lollibop"
+      },
+      {
+      "hex_value": "#d0609d",
+      "colour_name": "kiss you"
+      },
+      {
+      "hex_value": "#f6f6f6",
+      "colour_name": "icebreaker"
+      },
+      {
+      "hex_value": "#d55862",
+      "colour_name": "fauxmance"
+      },
+      {
+      "hex_value": "#fb908a",
+      "colour_name": "A-lister"
+      },
+      {
+      "hex_value": "#ff4c4e",
+      "colour_name": "poutrageous!"
+      }
+      ]
+      },

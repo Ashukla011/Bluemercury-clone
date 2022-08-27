@@ -138,18 +138,18 @@ var flag4 = true;
 document.getElementById("_sort").addEventListener("click",async function(){
     var selected = document.querySelector("#_sort").value;
     console.log(selected);
-    if (selected == "htl") {
+    if (selected=="lth") {
       let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_sort=views&_order=desc`);
         let x = await res.json();
         console.log(x)
-      append(x);
-
-    } else if (selected == "lth") {
-      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_sort=views&_order=asc`);
-        let x = await res.json();
-        console.log(x)
-append(x);
+      // append(x);
     }
+    // } else if (selected == "lth") {
+    //   let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_sort=views&_order=asc`);
+    //     let x = await res.json();
+    //     console.log(x)
+    //   append(x);
+    // }
     
   })
 

@@ -284,17 +284,13 @@ function sidebar() {
   `
 }
 // <<<<<<< HEAD
-function sortby() {
-  return ` 
-  <select name="" id="_sort">
-  <option value="">Featured</option>`
-}
+
 function sortby(){
   return  ` <select name="" >
   <option value="" >Featured</option>
   <option value="">New Arrivals</option>
   <option value="">Best Sellers</option>
-  <option value="lth" >Price,Low to High</option>
+  <option id="_sort" value="lth" >Price,Low to High</option>
   <option value="htl">Price,High to Low</option>
  </select>` 
 }

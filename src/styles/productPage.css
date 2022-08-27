@@ -41,10 +41,10 @@ list-style-type: none;
 .li_check{
     display: flex;
 }
-/* #filter #fil_add{
+#filter #fil_add{
     display: flex;
     justify-content: space-between;
-  } */
+  }
 
 
 

@@ -16,7 +16,7 @@ m.innerHTML = null
  
       let img = document.createElement("img");
       img.src = y.image_link
-      let descri = document.createElement("p");
+      let descri = document.createElement("h3");
       descri.innerText = "Brand"+" "+":"+ y.brand;
       let ti = document.createElement("p");
       ti.innerText ="Name" + " :"+ " " + y.name;
@@ -25,11 +25,25 @@ m.innerHTML = null
 
       let div = document.createElement("div"); 
       let data = document.createElement("div");
-      let container = document.createElement("div")
+      let container = document.createElement("div");
+      let h=document.createElement("p");
+      h.innerText=`Description : ${y.description}`;
+      
+      // h1.createElement("option","30ML",{value:"30ML"})
+     let h1=document.createElement("button")
+     h1.innerText="ADD TO BAG"
+     let miinus=document.createElement("button");
+     miinus.innerText="-";
+     let diva=document.createElement("p");
+     let plus=document.createElement("button");
+     plus.innerText="+";
+     h1.setAttribute("id","addtobag")
+     diva.append(h1,miinus,plus);
+     
       container.setAttribute("id","container1")
       div.setAttribute("class","list")  
       div.append(img)
-      data.append(descri,ti,tt)
+      data.append(descri,ti,tt,h,diva)
       container.append(div,data)
       
       displayProduct_top.append(container)

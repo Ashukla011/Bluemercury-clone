@@ -33,11 +33,11 @@ let getData = async()=>{
             window.location.href="./displayProductPage.html"
         })
         let descri = document.createElement("p");
-        descri.innerText = el.brand;
+        descri.innerText ="Brand"+":"+" "+ el.brand;
         let ti = document.createElement("p");
-        ti.innerText = el.name;
+        ti.innerText = "Name"+":"+" "+ el.name;
         let tt = document.createElement("p");
-        tt.innerText =el.price_sign+" "+ el.price
+        tt.innerText = "Price"+":"+" "+ el.price_sign+" "+ el.price
 
         let p4=document.createElement("button")
         p4.innerText="ADD TO CART"

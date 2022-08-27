@@ -1,4 +1,4 @@
-function sidebar(){
+function sidebar() {
   return `
   <div id="main_side">
   <div id="side_top">
@@ -15,6 +15,104 @@ function sidebar(){
   </div>
   <div id="side_bottom">
       <h3>FILTER NEW ARRIVALS BY</h3>
+
+      <ul>
+      <li id="filter">
+      <div id="fil_add"> Category
+              <span id="prod_one" class="material-icons"
+                >add</span
+              >
+              </div>
+
+          <ul class="hide4">
+          <div class="li_check">
+              <input type="checkbox" />
+              <li id="powder">Powder</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="cream">Cream</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="pencil">Pencil</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="liquid">Liquid</li>
+              </div>
+                       
+          </ul>
+      </li>
+      </ul>
+      <hr/>
+
+      <ul>
+<li id="filter">
+<div id="fil_add"> Product Type
+              <span id="prod_two" class="material-icons"
+                >add</span
+              >
+              </div>
+  
+    <ul class="hide5">
+    <div class="li_check">
+              <input type="checkbox" />
+              <li id="blush">Blush</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="bronzer">Bronzer</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="eyebrow">Eyebrow</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="eyeliner">Eyeliner</li>
+              </div>
+      
+    </ul>
+</li>
+</ul>
+<hr/>
+
+<ul>
+<li id="filter">
+<div id="fil_add"> Tagslist
+              <span id="prod_three" class="material-icons"
+                >add</span
+              >
+              </div>
+    <ul class="hide6">
+    <div class="li_check">
+              <input type="checkbox" />
+              <li id="organic">Organic</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="sugarfreer">Sugar Free</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="vegan">vegan</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="alcohalfreer">Alcohal Free</li>
+              </div>
+              <div class="li_check">
+              <input type="checkbox" />
+              <li id="oilfree">Oil Free</li>
+              </div>
+       
+    </ul>
+</li>
+</ul>
+<hr/>
+
+
       <ul>
           <li id="filter">
               <div id="fil_add"> Type
@@ -136,6 +234,9 @@ function sidebar(){
       </ul>
       <hr/>
 
+
+      
+
       <ul>
       <li id="filter">
          <div id="fil_add">
@@ -178,15 +279,16 @@ function sidebar(){
 </div>
   `
 }
+// <<<<<<< HEAD
+
 function sortby(){
-  return  ` 
-  <select name="" id="select tag" onchange ="filter()">
+
+  return  ` <select name="" >
   <option value="" >Featured</option>
-  <option id="newarrivals" value="newarrivals">New Arrivals</option>
-  <option id="best_sellers" value="best_sellers">Best Sellers</option>
-  <option id="low_high" value="low_high">Price,Low to High</option>
-  <option id="high_low" value="high_low">Price,High to Low</option>
- </select>
-  `
+  <option value="">New Arrivals</option>
+  <option value="">Best Sellers</option>
+  <option id="_sort" value="lth" >Price,Low to High</option>
+  <option value="htl">Price,High to Low</option>
+ </select>`
 }
-export {sidebar,sortby};
+export { sidebar, sortby };

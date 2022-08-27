@@ -1,6 +1,10 @@
 // Posting the user data in database
-async function checkSignup(e) {
-    e.preventDefault();
+let daba=document.getElementById("form")
+daba.onsubmit=()=>{
+  checkSignup()
+}
+async function checkSignup() {
+    event.preventDefault();
   
     let email = document.getElementById("email").value;
     let first_name = document.getElementById("first_name").value;

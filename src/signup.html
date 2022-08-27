@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account-bluemercury</title> <!-- title of page  -->
-    <link rel="stylesheet" href="./Signup.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <!--Link of css styles -->
     <!--Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +25,7 @@
 </head>
 
 <body>
+    <div id="head" style="margin-bottom:50px ;"></div>
 
 
 
@@ -36,7 +38,7 @@
                     <p id="complete_form">Complete the form below to create a bluemercury.com account.</p>
                 </header>
 
-                <form id="form" onsubmit="checkSignup(event)">
+                <form id="form">
                     <input type="email" id="email" class="input" placeholder="Email*" required>
                     <input type="text" id="first_name" class="input" placeholder="First Name*" required>
                     <input type="text" id="last_name" class="input" placeholder="Last Name*" required>
@@ -63,23 +65,23 @@
                     </div>
                     <div>
                         <p id="privacy_policy">To learn more about how we use your information and your rights, see <a
-                                href="Signup.html">Privacy Note</a></p>
+                                href="./signup.html">Privacy Note</a></p>
                     </div>
                     <button type="submit" id="create_account_btn">CREATE ACCOUNT</button>
                 </form>
                 <div>
                     <span id="already_account">
                         Already have a bluemercury.com account?
-                        <a id="sign_in" href="Login.html">Sign In</a>
+                        <a id="sign_in" href="#">Sign In</a>
                     </span>
                 </div>
                 </form>
             </div>
         </div>
-    </div>
+    </div><br>
+    <div id="foot"style="margin-top=50px;"></div>
 </body>
-
 </html>
 
-<script src="../scripts/signup.js"></script>
-<script src="../scripts/header-footer.js"></script>
+<script src="./scripts/signup.js"></script>
+<script src="./scripts/navbar.js" type="module"></script>

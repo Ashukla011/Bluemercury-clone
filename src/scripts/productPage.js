@@ -66,7 +66,7 @@ var flag4 = true;
 
   //  id for adding functionality on the basis of "category"
   let powder = document.querySelector("#powder").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=powder`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&category=powder`);
         let x = await res.json();
         console.log(x)
       
@@ -75,7 +75,7 @@ var flag4 = true;
 
 
   let cream = document.querySelector("#cream").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=2&_limit=25&category=cream`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=2&_limit=28&category=cream`);
         let x = await res.json();
         console.log(x)
       
@@ -84,7 +84,7 @@ var flag4 = true;
 
 
   let pencil = document.querySelector("#pencil").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=pencil`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&category=pencil`);
         let x = await res.json();
         console.log(x)
       
@@ -92,7 +92,7 @@ var flag4 = true;
   });
 
   let liquid = document.querySelector("#liquid").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=liquid`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&category=liquid`);
         let x = await res.json();
         console.log(x)
       
@@ -101,7 +101,7 @@ var flag4 = true;
 
 // id for adding functionality on the basis of "product Type"
   let blush = document.querySelector("#blush").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=blush`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=26&product_type=blush`);
         let x = await res.json();
         console.log(x)
       
@@ -110,7 +110,7 @@ var flag4 = true;
 
 
   let bronzer = document.querySelector("#bronzer").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=bronzer`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&product_type=bronzer`);
         let x = await res.json();
         console.log(x)
       
@@ -119,7 +119,7 @@ var flag4 = true;
 
 
   let eyebrow = document.querySelector("#eyebrow").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=eyebrow`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&product_type=eyebrow`);
         let x = await res.json();
         console.log(x)
       
@@ -127,7 +127,7 @@ var flag4 = true;
   });
 
   let eyeliner = document.querySelector("#eyeliner").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=eyeliner`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&product_type=eyeliner`);
         let x = await res.json();
         console.log(x)
       
@@ -157,7 +157,7 @@ document.getElementById("_sort").addEventListener("click",async function(){
     getData()
   })
   let getData = async()=>{
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=50`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=28`);
     let x = await res.json();
     console.log(x)
   
@@ -220,4 +220,3 @@ let saveData = () => {
       function yes(){
         console.log("sorting function")
       }
-

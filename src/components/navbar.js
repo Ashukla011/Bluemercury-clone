@@ -13,9 +13,11 @@ let header=()=>{
             </div>
             <div class="heading_one">
                 <div>
+                <a href="./bluewards.html">
                     <img
                         src="https://t4.ftcdn.net/jpg/04/41/89/73/240_F_441897335_o5l9z54efVNgBtGnvjMdUVPK2W94k95M.jpg" />
-                </div>
+                </a>
+                        </div>
                 <div>WISHLIST</div>
             </div>
             <div class="heading_one" id="rsearch">
@@ -29,7 +31,7 @@ let header=()=>{
                     <img
                         src="https://static.thenounproject.com/png/3144376-200.png" />
                 </div>
-                <div>SIGN IN/UP</div>
+                <div><a href=./signup.html>SIGN IN/UP</a></div>
             </div>
             <div class="heading_one">
             
@@ -58,12 +60,12 @@ let header=()=>{
         </div>
         <div id="bottomNav">
  <ul>
-     <li><a style="color: #12284C;font-family: 14px'Monteserrat Medium',sans-serif;font-weight: 1000px;"  href="#">SHOP</a></li>
-     <li><a href="#">NEW!</a>
+     <li><a style="color: #12284C;font-family: 14px'Monteserrat Medium',sans-serif;font-weight: 1000px;"  href="./index.html">SHOP</a></li>
+     <li><a href="./productPage.html">NEW!</a>
          <div class="drop">
              <ul>
                  <li><a style="font-size: 20px;"href="#">By Category</a></li>
-                 <li ><a href="#">Shop All</a></li>
+                 <li ><a href="./productPage.html">Shop All</a></li>
                  <li><a href="#">Skincare</a></li>
                  <li><a href="#">Makeup</a></li>
                  <li><a href="#">Hair</a></li>
@@ -87,7 +89,7 @@ let header=()=>{
              
      </div> 
  </li>
- <li style="color: #12284c;"><a href="#">BRANDS</a>
+ <li style="color: #12284c;"><a href="./productPage.html">BRANDS</a>
      
          <div class="drop">
              <ul>
@@ -133,7 +135,7 @@ let header=()=>{
              </ul>
          </div>
  </li>
- <li><a href="#">EXPLORE</a>
+ <li><a href="./explor.html">EXPLORE</a>
      <div class="drop1">
          <ul>
          <li><a style=" font-weight: 700;" href="#">FEATURED</a></li>
@@ -159,7 +161,7 @@ let header=()=>{
 
  </div>
 </li>
-<li><a href="#">EVENTS</a>
+<li><a href="./A_Event.html">EVENTS</a>
  <div class="drop1">
  <ul>
  <li><a href="#">
@@ -178,7 +180,7 @@ let header=()=>{
      
  </div>
  </li>
- <li><a href="#">BLUEWARDS</a>
+ <li><a href="./bluewards.html">BLUEWARDS</a>
      <div class="drop1">
          <div class="drop41">
              <ul>
@@ -199,7 +201,7 @@ let header=()=>{
          </div>
      </div>
  </li>
- <li><a href="#">ROUTINE REBOOT</a>
+ <li><a href="./ARoutine.html">ROUTINE REBOOT</a>
      <div class="drop1">
      <ul>
  <li><a href="#">

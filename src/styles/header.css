@@ -164,7 +164,7 @@ ul li:hover .drop {
     position: absolute;
     left: -150%;
     width: unset;
-    width: 91vw;
+    width: 70vw;
     margin: auto;
     display: none;
     background-color: white;
@@ -179,9 +179,9 @@ ul li:hover .drop {
 .drop1{
     display: flex;
     position: absolute;
-    left: -265%;
+    left: -600%;
     width: unset;
-    width: 91vw;
+    width: 70vw;
     margin: auto;
     display: none;
     background-color: white;
@@ -192,36 +192,14 @@ ul li:hover .drop1 {
     display: flex;
 }
 #search1{
- width: 90%;
- margin-left: 80px;
+ width: 85%;
+ margin-left: 90px;
+ cursor: line;
+ border-radius: 20px solid #12284c;
+ border: #12284c;
+ margin-top: 10px;
+ height: 20px;
 }
-/* .offcanves{
- position: fixed;
- width: 30vw;
- height: 100vh;
- top: 0;
- right: 0;
- display: flex;
- align-items: center;
-}
-.offcaves ul{
- width: 100%;
-}
-.offcanves ul li{
- list-style: none;
-}
-.offcanves ul li a{
-font-size: 30px;
-font-family: 'Open Sans',sans-serif;
-font-weight: 400;
-line-height: 2;
-display: block;
-text-decoration: none;
-padding: 15px 0px;
-}
-.close{
- position: absolute;
-} */
 .main-menu .open-btn {
  font-size: 10px;
  color: #12284c;
@@ -232,17 +210,19 @@ padding: 15px 0px;
  position: fixed;
  top: 0;
  right: 0;
- background: white;
+ background: #12284c;
  width: 30vw;
  height: 100vh;
  display: flex;
  align-items: center;
  transform: translateX(100%);
  transition: all .4s ease;
+ overflow-x: hidden;
 }
 
 .offcanvas-menu.active {
  transform: translateX(0);
+ overflow-x: hidden;
 }
 
 .close-btn {
@@ -250,7 +230,7 @@ padding: 15px 0px;
  top: 30px;
  left: 30px;
  font-size: 30px;
- color:black;
+ color:white;
 }
 
 .offcanvas-menu ul {
@@ -271,8 +251,32 @@ padding: 15px 0px;
  text-decoration: none;
  padding: 15px 0 15px 7vw;
  transition: all .4s ease;
+ overflow-x: hidden;
 }
 
 .offcanvas-menu ul li a:hover {
- background: white;
+ background: #12284c;
+}
+#yourbag{
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ font-size: 30px;
+ color:white;
+}
+#delete{
+
+ position: absolute;
+ top: 30px;
+ left: 350px;
+ font-size: 30px;
+ color:white;
+ cursor: pointer;
+}
+#search2{
+ width:3%;
+ height: 17px;
+}
+#cred{
+ margin-top: 80px;
 }

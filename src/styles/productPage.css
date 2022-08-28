@@ -1,3 +1,17 @@
+*{
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+color: #8e99a9;
+}
+#right_main_top h1{
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+
+
 #product_main{
     /* border: 1px solid; */
     display: flex;
@@ -5,7 +19,6 @@
 }
 #sidebar{
     /* border: 1px solid; */
-   
     width: 20%;
 }
 #right_main{
@@ -31,7 +44,6 @@
 ul li{
 list-style-type: none;
 }
-
 #side_top p{
     font-style: italic;
 }
@@ -45,6 +57,120 @@ list-style-type: none;
     display: flex;
     justify-content: space-between;
   }
+#right_main_bottom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
 
 
+#main_nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0px 0px 3px 0px #12284C; */
+    border-bottom: 2px solid #DCDCDC;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: Montserrat Medium,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
+.top_part {
+    display: flex;
+    padding: 10px 50px;
+}
+
+.top_part > div {
+    margin: 2px;
+    flex-basis: 100%;
+}
+
+.bottom_part {
+    clear: both;
+}
+
+.top_part ul, .bottom_part ul{
+    display: flex;
+    margin: 0px;
+    list-style-type: none;
+    flex: 1 1 0%;
+    padding: 0px;
+}
+
+.top_part ul > li {
+    justify-self: center;
+    flex-basis: 100%;
+    /* /flex-wrap: nowrap; */
+    height: 30px;
+}
+
+.bottom_part ul li {
+    margin: 1px;
+    flex-basis: 100%;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    flex: 1 1 0%;
+    font-size: 16px;
+}
+
+.main_menu li:hover {
+    border-bottom: 3px solid #12284C;
+}
+
+.top_part ul li a, .bottom_part ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #5E769B;
+    /*padding-left: 7px;
+    padding-right: 20px;*/
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.navItem {
+    width: 80%;
+    right: 0;
+    float: right;
+}
+
+.navItem li {
+    margin: 1px;
+    text-align: center;
+    padding: 3px;
+}
+
+.navItem li a i, .top_part .location a i {
+    font-size: 20px;
+}
+
+.location a {
+    text-decoration: none;
+    color: #12284C;
+}
+
+.logo img {
+    min-width: 150px;
+    max-width: 200px;
+}
+
+.logo { 
+    align-self: center;
+    flex-shrink: 2;
+}
+
+.navItem > li:hover {
+    color: #12284C;
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+/*******
+End: Navigation bar
+********/

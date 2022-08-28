@@ -1,8 +1,8 @@
 // Posting the user data in database
-let daba=document.getElementById("form")
-daba.onsubmit=()=>{
+let daba=document.getElementById("form").addEventListener("click",function(){
   checkSignup()
-}
+})
+
 async function checkSignup() {
     event.preventDefault();
   
@@ -14,11 +14,11 @@ async function checkSignup() {
     const data = {
       email: email,
       first_name: first_name,
-      last_name: last_name,
+       last_name:last_name,
       password: password,
     };
   
-    let userData = await fetch("http://localhost:3001/users/signup", {
+    let userData = await fetch("https://fierce-everglades-78490.herokuapp.com/api/todo", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +28,9 @@ async function checkSignup() {
       .then((response) => {
         if (response.status === 403) {
           alert("User already exists, please login");
-          window.location.href = "index.html";
+
+          window.location.href = "./index.html";
+
         } else {
           return response.json();
         }
@@ -39,7 +41,12 @@ async function checkSignup() {
   
     if (userData !== undefined) {
       window.alert("Sign up successful, please login");
-      window.location.href = "index.html";
+
+      window.location.href = "./index.html";
+
     }
   }
+  
+  
+
   

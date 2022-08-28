@@ -14,7 +14,7 @@ async function checkSignup() {
     const data = {
       email: email,
       first_name: first_name,
-      last_name: last_name,
+     
       password: password,
     };
   
@@ -42,4 +42,27 @@ async function checkSignup() {
       window.location.href = "login.html";
     }
   }
+//   data=JSON.stringify(data)
+// fetch("https://masai-api-mocker.herokuapp.com/auth/register",{
+//     method:'POST',
+//     body:data,
+//     headers:{
+//         'Content-Type':'application/json',
+
+//     },
+
+// })
+// .then((response)=>{
+// return response.json();
+// })
+// .then((response)=>{
+//     console.log(response)
+// })
+// .catch((err)=>{
+// console.log(err)
+// })
+// };
+
+  
+
   

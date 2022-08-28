@@ -66,7 +66,7 @@ var flag4 = true;
 
   //  id for adding functionality on the basis of "category"
   let powder = document.querySelector("#powder").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=powder`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&category=powder`);
         let x = await res.json();
         console.log(x)
       
@@ -75,7 +75,7 @@ var flag4 = true;
 
 
   let cream = document.querySelector("#cream").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=cream`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=2&_limit=28&category=cream`);
         let x = await res.json();
         console.log(x)
       
@@ -84,7 +84,7 @@ var flag4 = true;
 
 
   let pencil = document.querySelector("#pencil").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=pencil`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&category=pencil`);
         let x = await res.json();
         console.log(x)
       
@@ -92,7 +92,7 @@ var flag4 = true;
   });
 
   let liquid = document.querySelector("#liquid").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&category=liquid`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&category=liquid`);
         let x = await res.json();
         console.log(x)
       
@@ -101,7 +101,7 @@ var flag4 = true;
 
 // id for adding functionality on the basis of "product Type"
   let blush = document.querySelector("#blush").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=blush`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=26&product_type=blush`);
         let x = await res.json();
         console.log(x)
       
@@ -110,7 +110,7 @@ var flag4 = true;
 
 
   let bronzer = document.querySelector("#bronzer").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=bronzer`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&product_type=bronzer`);
         let x = await res.json();
         console.log(x)
       
@@ -119,7 +119,7 @@ var flag4 = true;
 
 
   let eyebrow = document.querySelector("#eyebrow").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=eyebrow`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&product_type=eyebrow`);
         let x = await res.json();
         console.log(x)
       
@@ -127,7 +127,7 @@ var flag4 = true;
   });
 
   let eyeliner = document.querySelector("#eyeliner").addEventListener("click",async function () {
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=25&product_type=eyeliner`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_limit=28&product_type=eyeliner`);
         let x = await res.json();
         console.log(x)
       
@@ -157,7 +157,7 @@ document.getElementById("_sort").addEventListener("click",async function(){
     getData()
   })
   let getData = async()=>{
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=50`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=28`);
     let x = await res.json();
     console.log(x)
   
@@ -177,6 +177,10 @@ let  append= (x) =>{
     x.forEach((el) => {
         let img = document.createElement("img");
         img.src = el.image_link
+        img.addEventListener("click",function(){
+          localStorage.setItem("news",JSON.stringify(el))
+          window.location.href="./displayProductPage.html"
+      })
         let descri = document.createElement("p");
         descri.innerText = el.brand;
         let ti = document.createElement("p");
@@ -184,12 +188,21 @@ let  append= (x) =>{
         let tt = document.createElement("p");
         tt.innerText =el.price_sign+" "+ el.price
 
+        let p4=document.createElement("button")
+        p4.innerText="ADD TO CART"
+        p4.setAttribute("class", "add_to_cart")
+        p4.addEventListener("click", function(){
+            add.push(el)
+                  localStorage.setItem("mycart", JSON.stringify(add))
+                  alert("Items added in Cart" )
+        })
+
         let div = document.createElement("div"); 
         div.onclick =() =>{
             saveData()
         }
-        div.setAttribute("class","list")  
-        div.append(img,descri,ti,tt)
+        div.setAttribute("class","list1")  
+        div.append(img,descri,ti,tt,p4)
         right_main_bottom.append(div )
 
     })

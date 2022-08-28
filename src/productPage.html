@@ -12,11 +12,20 @@
       rel="stylesheet"
     />
     <style>
+        body{
+            margin-left: 50px;
+        }
         #right_main_bottom{
             display: grid;
             grid-template-columns: repeat(4,1fr);
         }
+        .list1{
+            margin-top: 20px;
+            padding: 20px 0 30px 20px;
+            
+        }
         .list1:hover{
+            border-radius: 15px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
         .list1{
@@ -25,9 +34,74 @@
         .list1>img{
             width: 100%;
         }
+        #right_main_bottom{
+            margin-left: 50px;
+        }
+        #pagination>button{
+            padding: 5px;
+        }
+        #footer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  /* margin-top: 5%; */
+}
+#footer > p {
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.boxs {
+  width: 30%;
+  text-align: center;
+}
     </style>
 </head>
 <body>
+        <!--Navbar-->
+
+        <nav id="main_nav">
+
+            <div class="top_part">
+                <div class="location">
+                    <a href="http://www.google.com">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        STORE & SPA LOCATOR
+                    </a>
+                </div>
+                <div class="logo">
+                    <a href="homepage.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/blm_36dad4a4-9b14-4ef8-9509-6a593f135aae_416x@2x.png?v=1588538421"/>
+                    </a>
+                </div>
+                <div class="nav_links">
+                    <ul class="navItem">
+                        <li>
+                            <a href="http://www.google.com" class="navlink">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                Wishlist
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.google.com" class="navlink">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                Search
+                            </a>
+                        </li>
+                       
+                        <li>
+                            <a href="cart.html" class="navlink">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                Bag
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+          
+        </nav>
+        <!-- NavBar End -->
    
     <div id="product_main">
         <div id="sidebar"></div>
@@ -46,10 +120,19 @@
   
     </div>
     <div id="pagination">
-        <button id="1" onclick="pegination(this.id)">1</button>
-        <button id="2" onclick="pegination(this.id)">2</button>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="4">4</button>
         
     </div>
+    <br>
+    <!-- <div id="footer">
+        <p>Copyright © 2022 Living Media Limited For reprint Syndications Today | Privacy Policy | Cancellation & Refund
+            | Customer Care</p>
+    </div> -->
+
+     
 </body>
 </html>
 

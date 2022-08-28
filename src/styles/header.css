@@ -280,3 +280,90 @@ ul li:hover .drop1 {
 #cred{
  margin-top: 80px;
 }
+#container4{
+    display: block;
+    display: space-between;
+    color: antiquewhite;
+    margin-left: 30px;
+}
+.size123{
+    font-size: 14px;
+    color: darkturquoise;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+#img101 img{
+    width: 80px;
+    height: 70px;
+}
+#img101{
+    width: 80px;
+    height: 70px;
+}
+#flexing{
+    margin-left: 20px;
+    width: 100px;
+    height: 70px;
+}
+
+#flexing1{
+    display: flex;
+    justify-content:initial;
+    color: mediumseagreen;
+    margin-top: 4px;
+}
+#flexing h5{
+    font-size: 12px;
+    font-weight: 14px;
+    margin-bottom: 2px;
+
+}
+#flexing p{
+margin-top: 4px;
+margin-bottom: 4px;
+}
+#button101{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#button101 button{
+width: 40px;
+height: 40px;
+font-size: 20px;
+font-weight: 20px;
+}
+#button101 :nth-child(1){
+   background-color: red;
+}
+#button101 :nth-child(3){
+    background-color: green;
+ }
+ #button101 p{
+    border: 1px solid wheat;
+    width: 37px;
+    height: 36px;
+    font-size: 20px;
+    font-weight: 20px;
+    margin-top: 2px;
+    text-align: center;
+    text-justify: auto;
+ }
+ .re1{
+    margin-left: 280px;
+    text-decoration: underline;
+    font-style: italic;
+ }
+#vbag101{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    background-color: navy;
+    border-color:none;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 20px;
+}

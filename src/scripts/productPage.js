@@ -220,4 +220,3 @@ let saveData = () => {
       function yes(){
         console.log("sorting function")
       }
-

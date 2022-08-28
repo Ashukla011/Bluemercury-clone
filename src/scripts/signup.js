@@ -6,7 +6,7 @@ daba.onsubmit=()=>{
 async function checkSignup() {
     event.preventDefault();
   
-    let email = document.getElementById("email").value;
+    let email = document.getElementById("lemail").value;
     let first_name = document.getElementById("first_name").value;
     let last_name = document.getElementById("last_name").value;
     let password = document.getElementById("password").value;
@@ -28,7 +28,7 @@ async function checkSignup() {
       .then((response) => {
         if (response.status === 403) {
           alert("User already exists, please login");
-          window.location.href = "login.html";
+          window.location.href = "index.html";
         } else {
           return response.json();
         }
@@ -39,7 +39,7 @@ async function checkSignup() {
   
     if (userData !== undefined) {
       window.alert("Sign up successful, please login");
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     }
   }
   

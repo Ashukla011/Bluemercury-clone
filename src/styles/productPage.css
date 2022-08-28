@@ -103,7 +103,7 @@ list-style-type: none;
 .top_part ul > li {
     justify-self: center;
     flex-basis: 100%;
-    /*flex-wrap: nowrap;*/
+    /* /flex-wrap: nowrap; */
     height: 30px;
 }
 
@@ -171,9 +171,6 @@ list-style-type: none;
     transition: cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-/*********************
+/*******
 End: Navigation bar
-**********************/
-
-
-
+********/

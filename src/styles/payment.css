@@ -315,13 +315,333 @@
        margin-bottom: 10px;  
        margin-left: 20px; 
    }
-   #expiry,#code{
+   #expiry #code{
        width: 15vw;
        height: 40px;
        margin-top: 10px;
        margin-bottom: 10px;   
-       margin-left: 20px;
-   }
-   form{
-       box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-   }
+       margin-left: 20px; 
+        font-family: 'Montserrat', sans-serif;
+ }
+ 
+    .Help_btn {
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+    .End_btn {
+        height: 50px;
+        width: 500px;
+        padding: 15px;
+        border: 0px;
+        margin: 20px 0px 0px;
+        color: white;
+        background-color: #12284c;
+    }
+    .Form_Invisible {
+        opacity: 0;
+    }
+    .loyalty {
+        background-color: #d1e8ee;
+    }
+    .centre {
+        text-align: center;
+        margin: 20px 0px;
+        font-size: 12px;
+    }
+    .Note {
+        font-size: 10px;
+        text-align: right;
+    }
+    .Offer_box {
+        display: flex;
+        flex-direction: row;
+        line-height: 1.65;
+        background-color: #d1e8ee;
+        cursor: pointer;
+        color: #12284c;
+        font-size: 14px;
+    }
+    .Join {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 22px;
+        text-transform: lowercase;
+        color: #607899;
+        cursor: pointer;
+    }
+    .Rewards{
+        width: 350px;
+        color: #12284c;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 18px;
+        cursor: pointer;
+    }
+    .Blue {
+        color: #5e769b;
+    }
+    .logo_box {
+        margin-left: 18px;
+        width: 150px;
+    }
+    .expandable {
+        visibility: collapse;
+    }
+    .expand-toggle:checked ~ * .expandable {
+        visibility: visible;
+        
+    }
+    #customer-login {
+        margin-top: 100px;
+    }
+    .Form {
+        width: 500px;
+        margin: auto;
+        color: #12284c;
+        margin-bottom: 50px;
+    }
+    .recover-form {
+        margin-bottom: 250px;
+    }
+    .Form_header > h1, p {
+        text-align: center;
+    }
+    #B-day {
+        width: 500px;
+        height: 50px;
+        border: 1px solid #12284c;
+    }
+    .Form_Box {
+        margin: 0px 0px 15px;
+    }
+    .Form_Ip {
+        width: 470px;
+        height: 24px;
+        padding: 12px 14px;
+        border: 1px solid #12284c;
+    }
+    button {
+        cursor: pointer;
+    }
+    .loyalty_info {
+        width: 300px;
+        padding-top: 8px;
+    }
+    #customer-login {
+        margin-bottom: 200px;
+    }
+    #create_customer {
+        margin-top: 50px;
+    }
+    
+    .Main_payment {
+        color: #12284c;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .Form_Ip_Name {
+        width: 250px;
+        height: 24px;
+        padding: 12px 14px;
+        border: 1px solid #12284c;
+        margin: 7px ;
+    }
+    .Payment_Form_Ip {
+        width: 545px;
+        height: 24px;
+        padding: 12px 14px;
+        border: 1px solid #12284c;
+        margin: 7px 7px;
+    }
+    .location {
+        font-size: 12px;
+    }
+    .location_list {
+        width: 170px;
+        height: 50px;
+        padding: 12px 14px;
+        border: 1px solid #12284c;
+        margin: 7px;
+    }
+    .pin {
+        width: 174px;
+        height: 24px;
+        padding: 12px 14px;
+        border: 1px solid #12284c;
+        margin: 7px;
+    }
+    .heading {
+        text-align: center;
+    
+    }
+    /* .Paypal {
+        width: 70%;
+        height: 80px;
+        border: 1px solid rgb(156, 146, 146);
+        border-radius: 4px;
+        margin: 20px 15%;
+    }
+    .Paypal_button {
+        width: 250px;
+        height: 50px;
+        margin: 15px;
+        background-color: #FFC439;
+        border-radius: 4px;
+    } */
+    #remove-btm {
+        margin-bottom: 0;
+    }
+    
+    /* Payment Page Right Part Starts */
+    
+    #p-right-section {
+        background-color: #f0f0f0;
+    }
+    
+    .p-grid {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .p-grid > div:nth-child(1) {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 20px;
+    }
+    .p-grid > div:nth-child(1) img {
+        height: 100px;
+    }
+    .p-grid > div:nth-child(1) div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* margin-left: 10px; */
+    }
+    .p-grid > div:nth-child(1) div:nth-child(2) p {
+        margin: 0;
+        padding: 0;
+    }
+    .p-grid > div:nth-child(1) div:nth-child(2) p:nth-child(1) {
+        font-size: 14px;
+        margin: 10px 0 10px 0;
+        font-weight: 400;
+    }
+    .p-grid > div:nth-child(1) div:nth-child(2) p:nth-child(2) {
+        color: rgba(18, 40, 76, 0.7);
+        font-size: 13px;
+    }
+    .p-grid div:nth-child(3) {
+        padding-top: 20px;
+    }
+    
+    #discount {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid #12284c;
+        width: 80%;
+        /* grid-gap: 10px; */
+        margin: auto;
+        height: 40px;
+    }
+    #discount div input {
+        width: 100%;
+        height: 85%;
+    }
+    #discount div button {
+        width: 100%;
+        height: 100%;
+        background-color: #12284c;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .tot {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+    .tot div:nth-child(2) {
+        flex-grow: 1;
+        text-align: right;
+    }
+    #paypal-1 button{
+        width: 70%;
+        height: 100px;
+        border-radius: 3px solid black;
+       margin-left: 70px;
+    }
+    #paypal-1 button img{
+        /* width: 230%; */
+        height: 50px;
+    }
+ #or{
+        color: #12284c;
+        margin-top: 30px;
+        margin-bottom: 30px;
+ }
+ #express{
+        font-weight: 20px;
+        padding-left: 205px;
+ }
+ #cont{
+        height: 25px;
+ }
+ #detailing{
+        height: 150px;
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+ }
+ #detailing div{
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+        text-decoration: underline;
+        color: #12284c;
+ 
+ }
+ #pay2{
+        margin-left:10px ;
+ }
+ #but3{
+        margin-left: 250px;
+ }
+ #img6{
+        display: flex;
+       margin-left: 200px;
+        margin-bottom: 60px;
+    }
+ #img6 img{
+        width: 50px;
+ 
+       
+ }
+ .news-checkbox {
+        width: 30px;
+        margin-bottom: 20px;
+        border: 5px solid black;
+        margin-left: 20px;
+    }
+    #cardno{
+        width: 30vw;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    #cardname{
+        width: 30vw;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;  
+        margin-left: 20px; 
+    }
+    #expiry,#code{
+        width: 15vw;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;   
+        margin-left: 20px;
+    }
+    

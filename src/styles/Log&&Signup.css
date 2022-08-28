@@ -1,0 +1,143 @@
+
+
+.A_head-1{
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+    height: 150px;
+    text-align: center;
+    /* border: 1px solid ; */
+}
+.A_head-1 h1{
+    color:#12284c;
+    font-size: 34px;
+    font: "Montserrat Regular",sans-serif;
+    margin: 0px 0px 28.22px;
+}
+.A_head-1 p{
+    color: #12284c;
+    font-size: 16px;
+}
+.A-signup-input{
+    margin: auto;
+    width: 70%;
+    height: 250px;
+    text-align: center;
+    /* border: 1px solid ; */
+}
+.A-signup-input input{
+  height: 40px;
+    width: 50%;
+    margin-top: 10px;
+  text-align: left;
+}
+.A-bluerewards{
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+    height: 100px;
+    text-align: center;
+    /* border: 1px solid ; */
+    text-align: center;
+    background-color: #D1E8EE;
+}
+.A-checkbox{
+    display: flex;
+    text-align: center;
+    gap:40px
+
+
+}
+.A-checkbox p{
+    color: #12284c;
+    font-size: 14px;
+    font-family: "Montserrat Light" sans-serif;
+  
+}
+.A-botton{
+    margin: auto;
+    width: 30%;
+    margin-top: 130px;
+    height: 150px;
+    text-align: center;
+    /* border: 1px solid ; */
+}
+.A-botton button{
+    padding: 15px;
+    margin: 0px 50px;
+    color: #FFFFFF;
+    font: 14px;
+    font-family: "Montserrat Semi Bold" sans-serif;
+  background-color: #12284c;
+}
+
+
+/* Login css */
+
+.A-log-1{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 100px;
+
+}
+.A-log-1 input{
+  padding: 12px 14px;
+  width: 70%;
+  margin-top: 10px;
+
+}
+.A-log-1 h1{
+    font: 34px;
+    font-family:"Montserrat Regular"sans-serif;
+
+
+}
+.A-log-1 h1 p{
+    font: 16px;
+    font-family:"Montserrat Regular"sans-serif;
+    color: #12284c;
+
+}
+.A-log-1 h1 input button p{
+    font: 16px;
+    font-family:"Montserrat Regular"sans-serif;
+    color: #12284c;
+
+}
+.A-log-1 p a{
+    font: 14px;
+    font-family:"Montserrat Regular"sans-serif;
+    color: #12284c;
+
+}
+.A-log-1 button{
+    
+    font-size: 14px;
+    font-family: "Montserrat Semin Bold" sans-serif;
+    background-color: #12284c;
+    color:#FFFFFF;
+    margin: 20px 0px 0px;
+    padding: 15px;
+    width: 70%;
+
+}
+
+#Aslider{
+    background-color: #d7ebf2;
+     width: 100%;
+     height: 40px;
+ 
+     
+}
+#Aslider p{
+    margin-top:100px;
+    color:#12284C;
+    font-size: 12px;
+    margin-top:50px;
+  text-align:  center;
+  transition: delay
+
+}

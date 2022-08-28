@@ -4,7 +4,7 @@ window.addEventListener("load",()=>{
     getData()
 })
 let getData = async()=>{
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=80`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=101&_limit=26`);
     let x = await res.json();
     // console.log(x)
   
@@ -71,7 +71,7 @@ canadian.onclick = () =>{
     cSearch()
 }
   let cSearch = async(na)=>{
-    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=201&_limit=60&product_tags=canadian`);
+    let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=201&_limit=24&product_tags=canadian`);
     let x = await res.json();
     console.log(x)
   
@@ -83,7 +83,7 @@ canadian.onclick = () =>{
       cSearch2()
   }
     let cSearch2 = async(na)=>{
-      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=250&_limit=60&product_tags=certClean`);
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=250&_limit=24&product_tags=certClean`);
       let x = await res.json();
       console.log(x)
     
@@ -95,13 +95,54 @@ canadian.onclick = () =>{
       cSearch3()
   }
     let cSearch3 = async(na)=>{
-      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?brand=dior`);
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?brand=dior&_limit=16`);
       let x = await res.json();
       console.log(x)
     
       append(x)
     }
    
-    function pegination(){
-        console.log("pegination working ")
+    let pegination1 = document.getElementById("1");
+    pegination1.onclick = (e) =>{
+      peg1(e)
+  }
+    let peg1 = async(na)=>{
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=450&_limit=24`);
+      let x = await res.json();
+    //   console.log(x)
+    
+      append(x)
+    }   
+    let pegination2 = document.getElementById("2");
+    pegination2.onclick = (e) =>{
+      peg2(e)
+  }
+    let peg2 = async(na)=>{
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=470&_limit=24`);
+      let x = await res.json();
+    //   console.log(x)
+    
+      append(x)
+    }
+    let pegination3 = document.getElementById("3");
+    pegination3.onclick = (e) =>{
+      peg3(e)
+  }
+    let peg3 = async(na)=>{
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=500&_limit=24`);
+      let x = await res.json();
+    //   console.log(x)
+    
+      append(x)
+    }
+    let pegination4 = document.getElementById("4");
+    pegination4.onclick = (e) =>{
+      peg4(e)
+  }
+    let peg4 = async(na)=>{
+      let res = await fetch(`https://still-chamber-16033.herokuapp.com/makeup_data?_start=530&_limit=24`);
+      let x = await res.json();
+    //   console.log(x)
+    
+      append(x)
     }
